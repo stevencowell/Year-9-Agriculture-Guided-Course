@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 7 — Packaging, market and Section 8 boundary</title>
+<desc id="desc">A Year 9 Agriculture folio card showing a three-step pathway from product evidence to packaging concepts and market reasoning, with a separate teacher-confirmed Section 8 panel.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 112C190 70 370 105 550 68S920 94 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 585C220 545 420 582 620 548S980 573 1200 530V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="800" fill="#17332D">FOLIO 07 • PACKAGING, MARKET &amp; SECTION 8</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M170 340H815" fill="none" stroke="#164E45" stroke-width="10" stroke-linecap="round"/>
+<path d="M800 324l24 16-24 16" fill="none" stroke="#164E45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="5">
+<circle cx="170" cy="340" r="15"/><circle cx="420" cy="340" r="15"/><circle cx="670" cy="340" r="15"/>
+</g>
+<g transform="translate(40 125)">
+<rect width="300" height="195" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#164E45"/>
+<path d="M31 50l10-10 8 6 11-18" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="53" font-size="25" font-weight="800" fill="#17332D">Product evidence</text>
+<text x="28" y="103" font-size="20" font-weight="700" fill="#2F7D62">quality observations</text>
+<text x="28" y="137" font-size="20" font-weight="700" fill="#2F7D62">handling record</text>
+<text x="28" y="171" font-size="20" font-weight="700" fill="#2F7D62">source</text>
+</g>
+<g transform="translate(290 365)">
+<rect width="300" height="195" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#2F7D62"/>
+<path d="M30 34h30v25H30zM30 34l15-10 15 10M45 24v35" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linejoin="round"/>
+<text x="84" y="53" font-size="25" font-weight="800" fill="#17332D">Packaging concept</text>
+<text x="28" y="99" font-size="19" font-weight="700" fill="#2F7D62">purpose • protection</text>
+<text x="28" y="132" font-size="19" font-weight="700" fill="#2F7D62">information</text>
+<text x="28" y="165" font-size="19" font-weight="700" fill="#2F7D62">environmental considerations</text>
+</g>
+<g transform="translate(540 125)">
+<rect width="300" height="195" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#7A4E2D"/>
+<circle cx="39" cy="40" r="8" fill="none" stroke="#FFF8E8" stroke-width="3"/>
+<path d="M28 58q11-13 22 0M55 31l8 8-8 8" fill="none" stroke="#FFF8E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="53" font-size="25" font-weight="800" fill="#17332D">Market reasoning</text>
+<text x="28" y="103" font-size="20" font-weight="700" fill="#2F7D62">audience</text>
+<text x="28" y="137" font-size="16" font-weight="700" fill="#2F7D62">value proposition • evidence</text>
+<text x="28" y="171" font-size="20" font-weight="700" fill="#2F7D62">limitation</text>
+</g>
+<g transform="translate(875 125)">
+<rect width="280" height="435" rx="28" fill="#D89A3D" stroke="#7A4E2D" stroke-width="5"/>
+<text x="140" y="48" text-anchor="middle" font-size="27" font-weight="800" fill="#17332D">SECTION 8</text>
+<text x="140" y="80" text-anchor="middle" font-size="23" font-weight="800" fill="#17332D">Teacher to confirm</text>
+<g font-size="20" font-weight="700" fill="#17332D">
+<text x="28" y="145">required focus</text>
+<text x="28" y="215">evidence</text>
+<text x="28" y="285">format</text>
+<text x="28" y="355">teacher direction</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="4" stroke-linecap="round">
+<path d="M28 163H250"/><path d="M28 233H250"/>
+<path d="M28 303H250"/><path d="M28 373H250"/>
+</g>
+<circle cx="140" cy="406" r="16" fill="#FFF8E8"/>
+<path d="M132 406l6 6 12-15" fill="none" stroke="#164E45" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<rect x="185" y="596" width="830" height="48" rx="24" fill="#164E45"/>
+<text x="600" y="628" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" fill="#FFF8E8">Justify choices with evidence — do not invent claims</text>
+</svg>

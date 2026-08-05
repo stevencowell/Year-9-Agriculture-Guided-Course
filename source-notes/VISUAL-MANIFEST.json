@@ -1,0 +1,148 @@
+{
+  "package": "Year 9 Agriculture guided-course visual package",
+  "asset_count": 17,
+  "language": "Australian English",
+  "visual_system": {
+    "palette": ["#164E45", "#2F7D62", "#D89A3D", "#7A4E2D", "#FFF8E8", "#DCEFF3", "#17332D"],
+    "style": "Accessible flat-vector agricultural illustrations and rounded infographic cards",
+    "external_dependencies": "None"
+  },
+  "assets": [
+    {
+      "filename": "agriculture-hero.svg",
+      "title": "Year 9 Agriculture — Australian mixed-farm learning",
+      "purpose": "Course landing hero introducing the four Year 9 Agriculture learning areas.",
+      "source_boundary": "Generic Australian mixed-farm concept only; no local farm, breed, layout, capacity, measurement or quantitative claim is represented.",
+      "alt_text": "Generic mixed-farm landscape with vegetables, cattle, poultry, gum trees and a clearly separated Year 9 Agriculture topic banner.",
+      "chatgpt_authorship": "Authored and layout-revised as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "term-1-learning-map.svg",
+      "title": "Term 1 learning map — Introduction to Agriculture",
+      "purpose": "Maps the learning progression from safe work through systems, enterprises and evidence.",
+      "source_boundary": "Conceptual learning prompts only; local procedures remain Teacher to confirm.",
+      "alt_text": "Four connected cards for working safely, reading a farm system, comparing enterprises and building evidence.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "term-2-learning-map.svg",
+      "title": "Term 2 learning map — Vegetable Production",
+      "purpose": "Maps design, plant profiling, production recording and evidence evaluation.",
+      "source_boundary": "No crop, site, timing, method, yield, price or local production detail is asserted; these remain Teacher to confirm.",
+      "alt_text": "Circular vegetable-production learning map linking design, plant profile, production records and evaluation.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "term-3-learning-map.svg",
+      "title": "Term 3 learning map — Beef Production",
+      "purpose": "Maps beef enterprise systems, feedlot research, practical preparation and evaluation.",
+      "source_boundary": "Generic cattle context only; practical activity, animal handling and local procedures remain Teacher to confirm and teacher-observed.",
+      "alt_text": "Four beef-production learning cards around a generic cattle illustration, with a teacher-observed practical boundary.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "term-4-learning-map.svg",
+      "title": "Term 4 learning map — Poultry Production",
+      "purpose": "Maps anatomy and development, production systems, enterprise evaluation and course synthesis.",
+      "source_boundary": "No species, breed, stage timing, production rate or local poultry procedure is asserted; local activity remains Teacher to confirm.",
+      "alt_text": "Four connected poultry-production cards covering anatomy, systems, evaluation and course synthesis.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-01.svg",
+      "title": "Folio card 1 — Farm WHS and animal movement",
+      "purpose": "Prompts hazard recognition, control planning and evidence recording.",
+      "source_boundary": "General safety decision prompts only; teacher directions and local procedures remain Teacher to confirm.",
+      "alt_text": "Three panels for spotting hazards, planning controls and recording WHS evidence, followed by a teacher-confirmation boundary.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-02.svg",
+      "title": "Folio card 2 — Agriculture systems and enterprises",
+      "purpose": "Supports system mapping and evidence-based enterprise comparison.",
+      "source_boundary": "Generic systems framework only; no enterprise-specific fact or local system is claimed.",
+      "alt_text": "Generic inputs-processes-outputs-feedback loop with purpose, resources, people and environment lenses plus two comparison cards.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-03.svg",
+      "title": "Folio card 3 — Topic Test preparation",
+      "purpose": "Provides a retrieval, explanation, comparison and checking study organiser.",
+      "source_boundary": "No test questions, answers, dates, marks, rules or conditions are supplied; format and conditions remain Teacher to confirm.",
+      "alt_text": "Four-quadrant Topic Test preparation organiser for retrieving, explaining, comparing and checking learning.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-04.svg",
+      "title": "Folio card 4 — Vegetable design and plant profile",
+      "purpose": "Scaffolds a labelled design and a verified-source plant profile.",
+      "source_boundary": "Crop, site, materials, dimensions and scientific naming must come from teacher direction or verified student sources.",
+      "alt_text": "Vegetable design-thinking panel beside a generic plant-profile evidence panel, with a Teacher to confirm boundary.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-05.svg",
+      "title": "Folio card 5 — Production diary and safety",
+      "purpose": "Structures repeatable production diary, safety and photo-caption evidence.",
+      "source_boundary": "No activity, tool, hazard control, result or local procedure is supplied; these remain Teacher to confirm.",
+      "alt_text": "Four diary evidence blocks with a separate safety record and photo or labelled-sketch caption panel.",
+      "chatgpt_authorship": "Authored and layout-revised as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-06.svg",
+      "title": "Folio card 6 — Climate, harvest and financial evidence",
+      "purpose": "Organises climate, harvest and financial evidence before synthesis.",
+      "source_boundary": "No climate figure, harvest result, yield, price or financial expectation is asserted; actual values remain Teacher to confirm or require a verified source.",
+      "alt_text": "Three evidence columns for climate, harvest and financial records linked by a synthesis statement.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-07.svg",
+      "title": "Folio card 7 — Packaging, market and Section 8 boundary",
+      "purpose": "Links product evidence, packaging concepts and market reasoning while isolating the unresolved Section 8 requirement.",
+      "source_boundary": "No brand, price, market statistic, legal label requirement or package specification is asserted; Section 8 is Teacher to confirm.",
+      "alt_text": "Product, packaging and market reasoning pathway beside an ochre Section 8 Teacher to confirm panel.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-08.svg",
+      "title": "Folio card 8 — Feedlot research",
+      "purpose": "Scaffolds question framing, reliable-source selection, evidence capture and synthesis.",
+      "source_boundary": "No feedlot statistic, capacity, layout, welfare rating, law or source claim is supplied; students must use verified sources.",
+      "alt_text": "Feedlot research funnel with four stages and a separate source register.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-09.svg",
+      "title": "Folio card 9 — Beef practical preparation",
+      "purpose": "Separates before, during and after preparation within a teacher-observed practical boundary.",
+      "source_boundary": "The activity, roles, animal handling method, safety procedure and evidence requirement remain Teacher to confirm.",
+      "alt_text": "Before, during and after beef practical preparation cards with a generic cattle icon and teacher-observed boundary.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-10.svg",
+      "title": "Folio card 10 — Poultry anatomy and development",
+      "purpose": "Prompts labelled anatomy evidence, structure-function reasoning and development sequencing.",
+      "source_boundary": "No species, breed, anatomical answer, timing, temperature or specimen detail is asserted; these require verified sources or teacher confirmation.",
+      "alt_text": "Generic poultry anatomy callout frame beside a non-timed egg-to-chick evidence sequence.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-11.svg",
+      "title": "Folio card 11 — Poultry systems and enterprise evaluation",
+      "purpose": "Supports neutral system comparison and a reasoned enterprise judgement.",
+      "source_boundary": "No system ranking, legal claim, capacity, production rate, price or evaluation result is asserted; context and criteria remain Teacher to confirm.",
+      "alt_text": "Two neutral poultry-system comparison panels around a welfare, environment, people and resources evaluation compass.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    },
+    {
+      "filename": "folio-card-12.svg",
+      "title": "Folio card 12 — Whole-course evaluation and source register",
+      "purpose": "Prompts synthesis across all four course areas and records supporting sources.",
+      "source_boundary": "No final submission format, grade, mark, date, outcome code or additional requirement is asserted; these remain Teacher to confirm.",
+      "alt_text": "Four course-area reflection cards linked to a central thinking prompt, with a whole-course source register.",
+      "chatgpt_authorship": "Authored as an individual SVG in Steve's signed-in ChatGPT session; Codex performed XML, spacing and render QA."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Term 2 learning map — Vegetable Production</title>
+<desc id="desc">A circular four-stage learning pathway for Year 9 Vegetable Production, moving through design, plant profiling, production records and evidence evaluation.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 115C180 70 360 105 540 72S900 95 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 575C220 535 410 580 610 548S980 570 1200 525V675H0Z" fill="#164E45" opacity=".11"/>
+<text x="600" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" fill="#17332D">TERM 2 • VEGETABLE PRODUCTION</text>
+<g fill="none" stroke="#164E45" stroke-width="10" stroke-linecap="round">
+<path d="M600 153C782 153 928 260 928 337"/>
+<path d="M928 337C928 455 780 520 600 520"/>
+<path d="M600 520C420 520 272 455 272 337"/>
+<path d="M272 337C272 260 418 153 600 153"/>
+</g>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="6">
+<circle cx="600" cy="153" r="17"/>
+<circle cx="928" cy="337" r="17"/>
+<circle cx="600" cy="520" r="17"/>
+<circle cx="272" cy="337" r="17"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(395 105)">
+<rect width="410" height="135" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#164E45"/>
+<path d="M31 49l12-21 12 21M36 43h14" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="28" font-weight="800" fill="#17332D">1 • Design</text>
+<text x="24" y="88" font-size="20" font-weight="700" fill="#2F7D62">purpose • site factors • crop choice</text>
+<text x="24" y="116" font-size="20" font-weight="700" fill="#2F7D62">labelled plan</text>
+</g>
+<g transform="translate(790 250)">
+<rect width="360" height="174" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#2F7D62"/>
+<path d="M43 54V31M43 40c-10-8-17-5-20 2 10 6 16 5 20-2M43 40c10-8 17-5 20 2-10 6-16 5-20-2" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">2 • Profile the plant</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">structure • needs</text>
+<text x="24" y="120" font-size="20" font-weight="700" fill="#2F7D62">growth • health</text>
+</g>
+<g transform="translate(395 445)">
+<rect width="410" height="135" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#7A4E2D"/>
+<path d="M31 30h24v27H31zM36 38h14M36 46h14" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">3 • Record production</text>
+<text x="24" y="88" font-size="20" font-weight="700" fill="#2F7D62">diary • safe actions • observations</text>
+<text x="24" y="116" font-size="20" font-weight="700" fill="#2F7D62">changes</text>
+</g>
+<g transform="translate(50 250)">
+<rect width="360" height="174" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#D89A3D"/>
+<path d="M30 52l10-10 8 6 10-16" fill="none" stroke="#17332D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">4 • Evaluate evidence</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">climate • harvest</text>
+<text x="24" y="120" font-size="20" font-weight="700" fill="#2F7D62">costs and returns • reflection</text>
+</g>
+<circle cx="600" cy="337" r="112" fill="#164E45"/>
+<path d="M600 375V294M600 331c-28-23-50-13-58 8 28 17 47 13 58-8M600 331c28-23 50-13 58 8-28 17-47 13-58-8" fill="none" stroke="#FFF8E8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="399" text-anchor="middle" font-size="23" font-weight="800" fill="#FFF8E8">Evidence grows</text>
+<text x="600" y="426" text-anchor="middle" font-size="23" font-weight="800" fill="#FFF8E8">with the crop</text>
+</g>
+<rect x="340" y="596" width="520" height="44" rx="22" fill="#164E45"/>
+<text x="600" y="626" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" fill="#FFF8E8">Plan → observe → record → evaluate</text>
+<text x="600" y="663" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#17332D">Local crop, timing and procedures: Teacher to confirm</text>
+</svg>

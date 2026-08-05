@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 4 — Vegetable design and plant profile</title>
+<desc id="desc">A Year 9 Agriculture folio card with a blank vegetable design frame, plant profile prompts, an evidence strip and a teacher-confirmed boundary for local crop and site decisions.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 112C190 70 370 105 550 68S920 94 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 575C220 535 420 575 620 540S980 568 1200 523V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="800" fill="#17332D">FOLIO 04 • VEGETABLE DESIGN &amp; PLANT PROFILE</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(55 120)">
+<rect width="525" height="385" rx="28" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="262.5" y="48" text-anchor="middle" font-size="29" font-weight="800" fill="#17332D">Design thinking</text>
+<rect x="30" y="78" width="465" height="160" rx="18" fill="#DCEFF3" stroke="#2F7D62" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="262.5" y="145" text-anchor="middle" font-size="24" font-weight="800" fill="#164E45">BLANK LABELLED PLAN</text>
+<text x="262.5" y="178" text-anchor="middle" font-size="19" font-weight="700" fill="#2F7D62">show relationships and annotations</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="35" y="278">purpose</text>
+<text x="35" y="315">site factors</text>
+<text x="35" y="352">access</text>
+<text x="275" y="278">resources</text>
+<text x="275" y="315">justification</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M125 274H235"/><path d="M145 311H235"/><path d="M105 348H235"/>
+<path d="M385 274H480"/><path d="M390 311H480"/>
+</g>
+</g>
+<g transform="translate(620 120)">
+<rect width="525" height="385" rx="28" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="262.5" y="48" text-anchor="middle" font-size="29" font-weight="800" fill="#17332D">Plant profile</text>
+<circle cx="92" cy="139" r="58" fill="#DCEFF3"/>
+<path d="M92 183V102M92 137c-28-22-50-12-58 8 28 17 47 13 58-8M92 137c28-22 50-12 58 8-28 17-47 13-58-8M92 102c-16-17-10-34 0-42 11 8 17 25 0 42" fill="none" stroke="#2F7D62" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-size="19" font-weight="700" fill="#2F7D62">
+<text x="178" y="91">common and scientific name</text>
+<text x="178" y="116">from verified source</text>
+<text x="178" y="162">structure</text>
+<text x="178" y="204">needs</text>
+<text x="35" y="264">growth observations</text>
+<text x="35" y="311">source</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M178 130H480"/><path d="M265 158H480"/><path d="M235 200H480"/>
+<path d="M225 260H480"/><path d="M105 307H480"/>
+</g>
+<path d="M438 333h37v30h-37zM445 341h23M445 349h18M445 357h13" fill="none" stroke="#D89A3D" stroke-width="4" stroke-linecap="round"/>
+</g>
+</g>
+<rect x="155" y="526" width="890" height="48" rx="24" fill="#164E45"/>
+<text x="600" y="558" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="800" fill="#FFF8E8">Label • annotate • explain choices • cite sources</text>
+<rect x="225" y="596" width="750" height="42" rx="21" fill="#D89A3D" stroke="#7A4E2D" stroke-width="3"/>
+<text x="600" y="624" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#17332D">Crop, site, materials and dimensions: Teacher to confirm</text>
+</svg>

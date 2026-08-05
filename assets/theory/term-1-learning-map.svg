@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Term 1 learning map — Introduction to Agriculture</title>
+<desc id="desc">A four-stop learning map for Year 9 Agriculture showing safe work, farm systems, enterprise comparison and evidence building, connected in a clear progression.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 120C180 70 360 110 530 75S880 95 1200 55V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 585C210 545 390 590 600 555S980 575 1200 535V675H0Z" fill="#164E45" opacity=".12"/>
+<text x="600" y="72" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#17332D">TERM 1 • INTRODUCTION TO AGRICULTURE</text>
+<text x="600" y="108" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#2F7D62">A connected pathway from safe practice to stronger evidence</text>
+<path d="M180 345H1020" stroke="#164E45" stroke-width="10" stroke-linecap="round"/>
+<circle cx="180" cy="345" r="18" fill="#D89A3D" stroke="#FFF8E8" stroke-width="6"/>
+<circle cx="460" cy="345" r="18" fill="#D89A3D" stroke="#FFF8E8" stroke-width="6"/>
+<circle cx="740" cy="345" r="18" fill="#D89A3D" stroke="#FFF8E8" stroke-width="6"/>
+<circle cx="1020" cy="345" r="18" fill="#D89A3D" stroke="#FFF8E8" stroke-width="6"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(45 150)">
+<rect width="270" height="165" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="24" fill="#164E45"/>
+<path d="M31 42l8 8 15-19" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="50" font-size="23" font-weight="800" fill="#17332D">1 • Work safely</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">identify hazards</text>
+<text x="24" y="119" font-size="20" font-weight="700" fill="#2F7D62">follow teacher directions</text>
+<text x="24" y="147" font-size="20" font-weight="700" fill="#2F7D62">record controls</text>
+</g>
+<g transform="translate(325 375)">
+<rect width="270" height="165" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="24" fill="#2F7D62"/>
+<path d="M29 47h26M34 36h16M38 25h8" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round"/>
+<text x="72" y="50" font-size="20" font-weight="800" fill="#17332D">2 • Read the farm system</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">inputs</text>
+<text x="24" y="119" font-size="20" font-weight="700" fill="#2F7D62">processes • outputs</text>
+<text x="24" y="147" font-size="20" font-weight="700" fill="#2F7D62">feedback</text>
+</g>
+<g transform="translate(605 150)">
+<rect width="270" height="165" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="24" fill="#D89A3D"/>
+<path d="M30 33h24M35 42h14M39 51h6" fill="none" stroke="#17332D" stroke-width="5" stroke-linecap="round"/>
+<text x="72" y="50" font-size="20" font-weight="800" fill="#17332D">3 • Compare enterprises</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">purpose • resources</text>
+<text x="24" y="119" font-size="20" font-weight="700" fill="#2F7D62">people</text>
+<text x="24" y="147" font-size="20" font-weight="700" fill="#2F7D62">environment</text>
+</g>
+<g transform="translate(885 375)">
+<rect width="270" height="165" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="24" fill="#7A4E2D"/>
+<path d="M31 30h22v25H31zM36 37h12M36 44h12" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="72" y="50" font-size="20" font-weight="800" fill="#17332D">4 • Build evidence</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">observations</text>
+<text x="24" y="119" font-size="20" font-weight="700" fill="#2F7D62">labelled diagrams • sources</text>
+<text x="24" y="147" font-size="20" font-weight="700" fill="#2F7D62">reflection</text>
+</g>
+</g>
+<rect x="285" y="583" width="630" height="48" rx="24" fill="#164E45"/>
+<text x="600" y="615" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" fill="#FFF8E8">Observe → explain → evaluate → improve</text>
+<text x="600" y="658" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#17332D">Local procedures: Teacher to confirm</text>
+</svg>

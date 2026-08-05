@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 6 — Climate, harvest and financial evidence</title>
+<desc id="desc">A Year 9 Agriculture folio card organising climate, harvest and financial records and linking conditions to production effects and financial implications.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 110C200 68 380 104 560 68S930 92 1200 50V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 580C230 540 430 580 630 545S980 570 1200 530V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="64" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#17332D">FOLIO 06 • CLIMATE, HARVEST &amp; FINANCIAL EVIDENCE</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(45 120)">
+<rect width="350" height="350" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="175" cy="75" r="48" fill="#DCEFF3"/>
+<path d="M143 82h63M153 65a24 24 0 0146 6 18 18 0 017 35h-53a20 20 0 010-40" fill="none" stroke="#164E45" stroke-width="6" stroke-linecap="round"/>
+<path d="M165 113l-7 15M187 113l-7 15" stroke="#2F7D62" stroke-width="5" stroke-linecap="round"/>
+<text x="175" y="151" text-anchor="middle" font-size="27" font-weight="800" fill="#17332D">Climate record</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="28" y="203">condition</text>
+<text x="28" y="244">verified source</text>
+<text x="28" y="285">observed effect</text>
+<text x="28" y="326">limitation</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M160 199H320"/><path d="M190 240H320"/>
+<path d="M190 281H320"/><path d="M145 322H320"/>
+</g>
+</g>
+<g transform="translate(425 120)">
+<rect width="350" height="350" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="175" cy="75" r="48" fill="#DCEFF3"/>
+<path d="M175 111V45M175 75c-24-19-42-10-49 7 24 14 40 11 49-7M175 75c24-19 42-10 49 7-24 14-40 11-49-7" fill="none" stroke="#2F7D62" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138 117h74" stroke="#7A4E2D" stroke-width="6" stroke-linecap="round"/>
+<text x="175" y="151" text-anchor="middle" font-size="27" font-weight="800" fill="#17332D">Harvest record</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="28" y="203">item</text>
+<text x="28" y="244">condition</text>
+<text x="28" y="285">method</text>
+<text x="28" y="326">evidence</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M105 199H320"/><path d="M140 240H320"/>
+<path d="M120 281H320"/><path d="M130 322H320"/>
+</g>
+</g>
+<g transform="translate(805 120)">
+<rect width="350" height="350" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="175" cy="75" r="48" fill="#DCEFF3"/>
+<rect x="143" y="45" width="64" height="60" rx="8" fill="none" stroke="#D89A3D" stroke-width="6"/>
+<path d="M155 61h40M155 75h40M155 89h25" stroke="#7A4E2D" stroke-width="5" stroke-linecap="round"/>
+<text x="175" y="151" text-anchor="middle" font-size="27" font-weight="800" fill="#17332D">Financial record</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="28" y="203">cost category</text>
+<text x="28" y="244">return category</text>
+<text x="28" y="285">assumption</text>
+<text x="28" y="326">source</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M175 199H320"/><path d="M190 240H320"/>
+<path d="M155 281H320"/><path d="M115 322H320"/>
+</g>
+</g>
+</g>
+<rect x="100" y="500" width="1000" height="58" rx="24" fill="#164E45"/>
+<text x="600" y="536" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" fill="#FFF8E8">Connect evidence: condition → production effect → financial implication</text>
+<rect x="105" y="580" width="990" height="48" rx="22" fill="#D89A3D" stroke="#7A4E2D" stroke-width="3"/>
+<text x="600" y="611" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#17332D">Actual crops, harvest method, prices and financial expectations: Teacher to confirm</text>
+</svg>

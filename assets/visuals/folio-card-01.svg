@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 1 — Farm WHS and animal movement</title>
+<desc id="desc">A three-panel Year 9 Agriculture folio card prompting students to identify hazards, plan general controls and record evidence while following teacher directions and local procedures.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 112C190 70 360 103 545 68S910 92 1200 50V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 580C220 540 420 578 620 542S980 570 1200 525V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="67" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#17332D">FOLIO 01 • FARM WHS &amp; ANIMAL MOVEMENT</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(45 135)">
+<rect width="340" height="330" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="170" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#17332D">Spot the hazard</text>
+<g transform="translate(35 80)">
+<rect x="0" y="0" width="80" height="80" rx="18" fill="#DCEFF3"/>
+<path d="M19 61V20h42v41M31 20v41M49 20v41" fill="none" stroke="#164E45" stroke-width="5" stroke-linecap="round"/>
+<text x="105" y="48" font-size="22" font-weight="700" fill="#2F7D62">gate</text>
+</g>
+<g transform="translate(35 175)">
+<rect x="0" y="0" width="80" height="80" rx="18" fill="#DCEFF3"/>
+<path d="M14 54c18-21 32 15 51-7" fill="none" stroke="#7A4E2D" stroke-width="7" stroke-linecap="round"/>
+<circle cx="28" cy="35" r="6" fill="#D89A3D"/>
+<circle cx="53" cy="57" r="6" fill="#D89A3D"/>
+<text x="105" y="48" font-size="22" font-weight="700" fill="#2F7D62">uneven ground</text>
+</g>
+<g transform="translate(35 270)">
+<rect x="0" y="-5" width="80" height="50" rx="16" fill="#DCEFF3"/>
+<ellipse cx="34" cy="19" rx="19" ry="13" fill="#7A4E2D"/>
+<circle cx="55" cy="14" r="10" fill="#7A4E2D"/>
+<path d="M20 31v10M38 31v10M55 24v14" stroke="#17332D" stroke-width="4" stroke-linecap="round"/>
+<text x="105" y="25" font-size="22" font-weight="700" fill="#2F7D62">animal space</text>
+</g>
+</g>
+<g transform="translate(430 135)">
+<rect width="340" height="330" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="170" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#17332D">Plan the control</text>
+<circle cx="62" cy="102" r="24" fill="#164E45"/>
+<path d="M50 102l8 8 16-20" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="110" font-size="23" font-weight="700" fill="#2F7D62">isolate</text>
+<circle cx="62" cy="163" r="24" fill="#2F7D62"/>
+<path d="M49 153h26v17H61l-9 8v-8h-3z" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linejoin="round"/>
+<text x="105" y="171" font-size="23" font-weight="700" fill="#2F7D62">communicate</text>
+<circle cx="62" cy="224" r="24" fill="#D89A3D"/>
+<path d="M62 207v34M45 224h34" stroke="#17332D" stroke-width="4" stroke-linecap="round"/>
+<text x="105" y="232" font-size="23" font-weight="700" fill="#2F7D62">position</text>
+<circle cx="62" cy="285" r="24" fill="#7A4E2D"/>
+<path d="M49 285l8 8 17-21" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="293" font-size="23" font-weight="700" fill="#2F7D62">check</text>
+</g>
+<g transform="translate(815 135)">
+<rect width="340" height="330" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="170" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#17332D">Record evidence</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="30" y="104">observation</text>
+<text x="30" y="163">control</text>
+<text x="30" y="222">result</text>
+<text x="30" y="281">reflection</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="4" stroke-linecap="round">
+<path d="M150 100H305"/><path d="M150 159H305"/><path d="M150 218H305"/><path d="M150 277H305"/>
+</g>
+<path d="M278 71h27v27M305 71l-34 34" fill="none" stroke="#D89A3D" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<rect x="120" y="492" width="960" height="64" rx="22" fill="#D89A3D" stroke="#7A4E2D" stroke-width="4"/>
+<text x="600" y="519" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" fill="#17332D">Follow teacher directions and local procedures</text>
+<text x="600" y="545" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" fill="#17332D">Teacher to confirm</text>
+<rect x="320" y="585" width="560" height="48" rx="24" fill="#164E45"/>
+<text x="600" y="617" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" fill="#FFF8E8">Pause • observe • communicate • act safely</text>
+</svg>

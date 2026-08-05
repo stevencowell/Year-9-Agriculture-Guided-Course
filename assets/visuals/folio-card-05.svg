@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 5 — Production diary and safety</title>
+<desc id="desc">A Year 9 Agriculture production diary infographic with four evidence blocks, a separate safety record, a photo or labelled sketch panel, a teacher-confirmed boundary and a clear footer.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 110C200 68 380 104 560 68S930 92 1200 50V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 590C230 548 420 585 630 550S980 575 1200 535V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="65" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#17332D">FOLIO 05 • PRODUCTION DIARY &amp; SAFETY</text>
+<g font-family="Arial,Helvetica,sans-serif">
+  <g transform="translate(40 112)">
+    <rect width="760" height="418" rx="28" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+    <text x="28" y="47" font-size="27" font-weight="800" fill="#17332D">Repeatable diary evidence</text>
+<g transform="translate(28 76)">
+  <rect width="338" height="132" rx="20" fill="#DCEFF3" stroke="#164E45" stroke-width="4"/>
+  <circle cx="42" cy="42" r="22" fill="#164E45"/>
+  <path d="M31 42h22M42 31v22" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+  <text x="78" y="50" font-size="25" font-weight="800" fill="#17332D">Action</text>
+  <text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">what was done</text>
+  <path d="M24 112H314" stroke="#7A4E2D" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<g transform="translate(394 76)">
+  <rect width="338" height="132" rx="20" fill="#DCEFF3" stroke="#164E45" stroke-width="4"/>
+  <circle cx="42" cy="42" r="22" fill="#2F7D62"/>
+  <path d="M31 42l8 8 15-19" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="50" font-size="25" font-weight="800" fill="#17332D">Reason</text>
+  <text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">why it was appropriate</text>
+  <path d="M24 112H314" stroke="#7A4E2D" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<g transform="translate(28 236)">
+  <rect width="338" height="132" rx="20" fill="#DCEFF3" stroke="#164E45" stroke-width="4"/>
+  <circle cx="42" cy="42" r="22" fill="#D89A3D"/>
+  <circle cx="42" cy="42" r="10" fill="none" stroke="#17332D" stroke-width="4"/>
+  <path d="M22 42h10M52 42h10" stroke="#17332D" stroke-width="4" stroke-linecap="round"/>
+  <text x="78" y="50" font-size="25" font-weight="800" fill="#17332D">Observation</text>
+  <text x="24" y="88" font-size="19" font-weight="700" fill="#2F7D62">what changed or stayed the same</text>
+  <path d="M24 112H314" stroke="#7A4E2D" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<g transform="translate(394 236)">
+  <rect width="338" height="132" rx="20" fill="#DCEFF3" stroke="#164E45" stroke-width="4"/>
+  <circle cx="42" cy="42" r="22" fill="#7A4E2D"/>
+  <path d="M29 49l11-13 8 7 11-15" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="50" font-size="25" font-weight="800" fill="#17332D">Next step</text>
+  <text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">evidence-based adjustment</text>
+  <path d="M24 112H314" stroke="#7A4E2D" stroke-width="3" stroke-linecap="round"/>
+</g>
+  </g>
+  <g transform="translate(828 112)">
+    <rect width="332" height="278" rx="26" fill="#164E45"/>
+    <text x="166" y="43" text-anchor="middle" font-size="26" font-weight="800" fill="#FFF8E8">Safety record</text>
+<g font-size="19" font-weight="700" fill="#FFF8E8">
+  <text x="26" y="88">Hazard noticed</text>
+  <path d="M26 111H306" stroke="#D89A3D" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="26" y="145">Control followed</text>
+  <path d="M26 168H306" stroke="#D89A3D" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="26" y="202">Teacher direction</text>
+  <path d="M26 225H306" stroke="#D89A3D" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="26" y="259">Result</text>
+</g>
+  </g>
+  <g transform="translate(828 414)">
+    <rect width="332" height="116" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5" stroke-dasharray="12 8"/>
+    <path d="M42 66l38-34 31 28 26-21 34 30" fill="none" stroke="#2F7D62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="207" cy="35" r="12" fill="#D89A3D"/>
+    <text x="166" y="82" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">Photo or labelled sketch</text>
+    <text x="166" y="105" text-anchor="middle" font-size="18" font-weight="700" fill="#2F7D62">Add a factual caption</text>
+  </g>
+</g>
+<rect x="120" y="552" width="960" height="44" rx="22" fill="#D89A3D" stroke="#7A4E2D" stroke-width="3"/>
+<text x="600" y="581" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" fill="#17332D">Activities, tools and local safety procedures: Teacher to confirm</text>
+<rect x="275" y="615" width="650" height="42" rx="21" fill="#164E45"/>
+<text x="600" y="643" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="800" fill="#FFF8E8">Specific records make later evaluation possible</text>
+</svg>

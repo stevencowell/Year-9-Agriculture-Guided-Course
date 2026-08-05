@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Term 4 learning map — Poultry Production</title>
+<desc id="desc">A left-to-right four-stage learning map for Year 9 Poultry Production covering anatomy and development, production systems, enterprise evaluation and course synthesis.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 120C190 72 370 108 550 70S910 96 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 565C220 525 410 566 620 530S980 555 1200 510V675H0Z" fill="#164E45" opacity=".11"/>
+<text x="600" y="68" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" fill="#17332D">TERM 4 • POULTRY PRODUCTION</text>
+<path d="M150 335H1050" fill="none" stroke="#164E45" stroke-width="10" stroke-linecap="round"/>
+<path d="M1034 320l22 15-22 15" fill="none" stroke="#164E45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="6">
+<circle cx="150" cy="335" r="16"/><circle cx="450" cy="335" r="16"/>
+<circle cx="750" cy="335" r="16"/><circle cx="1050" cy="335" r="16"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(35 145)">
+<rect width="270" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="25" fill="#164E45"/>
+<ellipse cx="43" cy="42" rx="12" ry="17" fill="none" stroke="#FFF8E8" stroke-width="4"/>
+<path d="M38 42c5-7 12-6 14 1-4 7-10 9-14 4" fill="none" stroke="#FFF8E8" stroke-width="3"/>
+<text x="80" y="42" font-size="24" font-weight="800" fill="#17332D">1 • Anatomy and</text>
+<text x="80" y="68" font-size="24" font-weight="800" fill="#17332D">development</text>
+<text x="24" y="107" font-size="20" font-weight="700" fill="#2F7D62">structure • function</text>
+<text x="24" y="136" font-size="20" font-weight="700" fill="#2F7D62">sequence • labelled evidence</text>
+</g>
+<g transform="translate(315 355)">
+<rect width="270" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="25" fill="#2F7D62"/>
+<path d="M27 53h32V37L43 25 27 37zM35 53V42h16v11" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="21" font-weight="800" fill="#17332D">2 • Production systems</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">housing • inputs</text>
+<text x="24" y="120" font-size="20" font-weight="700" fill="#2F7D62">management • outputs</text>
+</g>
+<g transform="translate(615 145)">
+<rect width="270" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="25" fill="#D89A3D"/>
+<ellipse cx="39" cy="46" rx="14" ry="12" fill="none" stroke="#17332D" stroke-width="4"/>
+<circle cx="53" cy="36" r="8" fill="none" stroke="#17332D" stroke-width="4"/>
+<path d="M60 36l9 4-9 4M34 58v8M45 58v8M50 28q3-7 6 0" fill="none" stroke="#17332D" stroke-width="3" stroke-linecap="round"/>
+<text x="80" y="42" font-size="24" font-weight="800" fill="#17332D">3 • Enterprise</text>
+<text x="80" y="68" font-size="24" font-weight="800" fill="#17332D">evaluation</text>
+<text x="24" y="107" font-size="20" font-weight="700" fill="#2F7D62">welfare • environment</text>
+<text x="24" y="136" font-size="16" font-weight="700" fill="#2F7D62">resources • responsible decisions</text>
+</g>
+<g transform="translate(895 355)">
+<rect width="270" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="25" fill="#7A4E2D"/>
+<path d="M29 31h28v27H29zM35 38h16M35 46h12M35 54h8" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="80" y="42" font-size="21" font-weight="800" fill="#17332D">4 • Course synthesis</text>
+<text x="24" y="87" font-size="19" font-weight="700" fill="#2F7D62">compare enterprises</text>
+<text x="24" y="114" font-size="16" font-weight="700" fill="#2F7D62">evaluate learning • source register</text>
+<text x="24" y="141" font-size="19" font-weight="700" fill="#2F7D62">next questions</text>
+</g>
+</g>
+<rect x="325" y="552" width="550" height="47" rx="24" fill="#164E45"/>
+<text x="600" y="584" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" fill="#FFF8E8">Describe → compare → justify → reflect</text>
+<rect x="295" y="614" width="610" height="38" rx="19" fill="#D89A3D"/>
+<text x="600" y="640" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#17332D">Local poultry activity and procedures: Teacher to confirm</text>
+</svg>

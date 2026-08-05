@@ -1,0 +1,6 @@
+# Local development artefacts are not part of the GitHub Pages release.
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+qa-browser/

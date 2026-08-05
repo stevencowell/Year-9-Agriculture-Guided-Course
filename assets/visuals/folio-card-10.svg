@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 10 — Poultry anatomy and development</title>
+<desc id="desc">A Year 9 Agriculture folio card with a generic hen outline, blank anatomy callout prompts, a neutral egg-to-chick development sequence, an evidence checklist and teacher-confirmed boundaries.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 110C190 68 370 103 550 68S920 93 1200 50V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 585C220 545 420 582 620 548S980 574 1200 530V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="65" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="800" fill="#17332D">FOLIO 10 • POULTRY ANATOMY &amp; DEVELOPMENT</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(45 115)">
+<rect width="520" height="390" rx="28" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="260" y="45" text-anchor="middle" font-size="28" font-weight="800" fill="#17332D">Anatomy evidence</text>
+<path d="M110 230q12-78 105-82 85-3 117 54 24-18 49-5 22 12 24 37-20 21-55 13-20 55-103 58-84 2-127-44z" fill="#D89A3D" stroke="#17332D" stroke-width="5"/>
+<circle cx="382" cy="186" r="35" fill="#D89A3D" stroke="#17332D" stroke-width="5"/>
+<path d="M414 184l31 13-31 14M367 155q5-18 14 0 9-19 17 2M143 232q-45-17-63-55M168 287v45M229 302v44" fill="none" stroke="#17332D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="393" cy="181" r="4" fill="#FFF8E8"/>
+<g fill="none" stroke="#164E45" stroke-width="3" stroke-linecap="round">
+<path d="M140 158H48V118"/><path d="M285 164H468V113"/>
+<path d="M123 260H48V310"/><path d="M326 266H468V318"/>
+</g>
+<g font-size="19" font-weight="700" fill="#2F7D62">
+<text x="25" y="105">structure</text><text x="404" y="100">location</text>
+<text x="25" y="340">function</text><text x="365" y="348">evidence source</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M25 123H120"/><path d="M404 118H492"/>
+<path d="M25 358H120"/><path d="M365 366H492"/>
+</g>
+</g>
+<g transform="translate(600 115)">
+<rect width="555" height="390" rx="28" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<text x="277.5" y="45" text-anchor="middle" font-size="28" font-weight="800" fill="#17332D">Development sequence</text>
+<path d="M78 180H478" stroke="#164E45" stroke-width="7" stroke-linecap="round"/>
+<path d="M462 166l22 14-22 14" fill="none" stroke="#164E45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(45 85)">
+<circle cx="45" cy="85" r="52" fill="#DCEFF3"/>
+<ellipse cx="45" cy="84" rx="26" ry="37" fill="#FFF8E8" stroke="#7A4E2D" stroke-width="5"/>
+<text x="45" y="160" text-anchor="middle" font-size="19" font-weight="800" fill="#17332D">observe</text>
+</g>
+<g transform="translate(175 85)">
+<circle cx="45" cy="85" r="52" fill="#DCEFF3"/>
+<ellipse cx="45" cy="84" rx="26" ry="37" fill="#FFF8E8" stroke="#7A4E2D" stroke-width="5"/>
+<path d="M32 84q13-22 28 1-8 20-25 13" fill="none" stroke="#D89A3D" stroke-width="4" stroke-linecap="round"/>
+<text x="45" y="153" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">describe</text>
+<text x="45" y="176" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">change</text>
+</g>
+<g transform="translate(305 85)">
+<circle cx="45" cy="85" r="52" fill="#DCEFF3"/>
+<path d="M25 101q8-43 40-38 26 5 24 36-13 25-40 18z" fill="#D89A3D" stroke="#17332D" stroke-width="4"/>
+<circle cx="70" cy="70" r="14" fill="#D89A3D" stroke="#17332D" stroke-width="4"/>
+<path d="M82 70l15 7-15 7M39 114v19M57 116v18" stroke="#17332D" stroke-width="3" stroke-linecap="round"/>
+<text x="45" y="153" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">explain</text>
+<text x="45" y="176" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">function</text>
+</g>
+<g transform="translate(435 85)">
+<circle cx="45" cy="85" r="52" fill="#DCEFF3"/>
+<rect x="22" y="54" width="46" height="58" rx="6" fill="none" stroke="#2F7D62" stroke-width="5"/>
+<path d="M31 68h28M31 80h22M31 92h17" stroke="#2F7D62" stroke-width="4" stroke-linecap="round"/>
+<text x="45" y="153" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">verify</text>
+<text x="45" y="176" text-anchor="middle" font-size="18" font-weight="800" fill="#17332D">source</text>
+</g>
+</g>
+</g>
+<rect x="110" y="530" width="980" height="52" rx="24" fill="#164E45"/>
+<text x="600" y="563" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" fill="#FFF8E8">label accurately • connect structure to function • sequence observations • cite source</text>
+<rect x="170" y="600" width="860" height="44" rx="22" fill="#D89A3D" stroke="#7A4E2D" stroke-width="3"/>
+<text x="600" y="629" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#17332D">Species, stage details and practical specimen: Teacher to confirm</text>
+</svg>

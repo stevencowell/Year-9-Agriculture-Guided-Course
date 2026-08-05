@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Term 3 learning map — Beef Production</title>
+<desc id="desc">A four-stage paddock-style learning map for Year 9 Beef Production covering enterprise systems, feedlot research, practical preparation and evaluation, with teacher-controlled practical boundaries.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 126C190 76 360 110 545 72S905 99 1200 55V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 555C220 510 410 555 610 520S980 548 1200 500V675H0Z" fill="#164E45" opacity=".12"/>
+<text x="600" y="67" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" fill="#17332D">TERM 3 • BEEF PRODUCTION</text>
+<g fill="none" stroke="#164E45" stroke-width="9" stroke-linecap="round">
+<path d="M280 245H445"/>
+<path d="M755 245H920"/>
+<path d="M280 455H445"/>
+<path d="M755 455H920"/>
+<path d="M230 310V390"/>
+<path d="M970 310V390"/>
+</g>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="5">
+<circle cx="362" cy="245" r="13"/><circle cx="837" cy="245" r="13"/>
+<circle cx="362" cy="455" r="13"/><circle cx="837" cy="455" r="13"/>
+<circle cx="230" cy="350" r="13"/><circle cx="970" cy="350" r="13"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(55 135)">
+<rect width="350" height="175" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#164E45"/>
+<path d="M28 52h31M34 45V32h20v13M39 32l5-7 5 7" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">1 • Enterprise systems</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">purpose • inputs</text>
+<text x="24" y="121" font-size="20" font-weight="700" fill="#2F7D62">processes • outputs</text>
+</g>
+<g transform="translate(795 135)">
+<rect width="350" height="175" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#2F7D62"/>
+<path d="M31 30h24v27H31zM36 37h14M36 45h11" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">2 • Feedlot research</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">questions • reliable sources</text>
+<text x="24" y="121" font-size="20" font-weight="700" fill="#2F7D62">welfare and environment</text>
+<text x="24" y="151" font-size="20" font-weight="700" fill="#2F7D62">synthesis</text>
+</g>
+<g transform="translate(55 385)">
+<rect width="350" height="175" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#7A4E2D"/>
+<path d="M31 50l8-8 7 6 10-17" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="43" font-size="24" font-weight="800" fill="#17332D">3 • Prepare for</text>
+<text x="80" y="70" font-size="24" font-weight="800" fill="#17332D">practical learning</text>
+<text x="24" y="108" font-size="20" font-weight="700" fill="#2F7D62">hazards • teacher directions</text>
+<text x="24" y="137" font-size="20" font-weight="700" fill="#2F7D62">observation focus • evidence plan</text>
+</g>
+<g transform="translate(795 385)">
+<rect width="350" height="175" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="43" cy="42" r="24" fill="#D89A3D"/>
+<path d="M29 51l10-11 8 6 11-17" fill="none" stroke="#17332D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="49" font-size="27" font-weight="800" fill="#17332D">4 • Evaluate</text>
+<text x="24" y="91" font-size="20" font-weight="700" fill="#2F7D62">system effects</text>
+<text x="24" y="121" font-size="20" font-weight="700" fill="#2F7D62">responsible decisions • evidence</text>
+<text x="24" y="151" font-size="20" font-weight="700" fill="#2F7D62">reflection</text>
+</g>
+<g transform="translate(465 180)">
+<rect width="270" height="330" rx="30" fill="#164E45"/>
+<path d="M59 156q20-45 87-45 61 0 80 38l-8 47q-27 24-78 22-55-1-86-25z" fill="#7A4E2D" stroke="#FFF8E8" stroke-width="5"/>
+<circle cx="226" cy="147" r="27" fill="#7A4E2D" stroke="#FFF8E8" stroke-width="5"/>
+<path d="M232 123l14-23 8 27M214 124l-12-23-7 28M82 195v47M129 213v50M183 207v51M218 193v46M59 163q-27-12-35-35" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="235" cy="143" r="4" fill="#FFF8E8"/>
+<text x="135" y="285" text-anchor="middle" font-size="21" font-weight="800" fill="#FFF8E8">Research, observation</text>
+<text x="135" y="313" text-anchor="middle" font-size="21" font-weight="800" fill="#FFF8E8">and responsible judgement</text>
+</g>
+</g>
+<rect x="170" y="574" width="860" height="49" rx="22" fill="#D89A3D" stroke="#7A4E2D" stroke-width="4"/>
+<text x="600" y="596" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" fill="#17332D">Teacher-observed practical evidence only — activity and local procedure:</text>
+<text x="600" y="617" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" fill="#17332D">Teacher to confirm</text>
+<text x="600" y="655" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" fill="#164E45">Research → prepare → observe → evaluate</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 12 — Whole-course evaluation and source register</title>
+<desc id="desc">A Year 9 Agriculture reflection card connecting learning from introduction, vegetables, beef and poultry, with a central evaluation prompt and a structured source register.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 110C190 68 370 103 550 68S920 93 1200 50V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 590C220 545 420 585 620 548S980 574 1200 530V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="64" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#17332D">FOLIO 12 • WHOLE-COURSE EVALUATION &amp; SOURCE REGISTER</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M280 205H440M760 205H920M280 425H440M760 425H920" stroke="#164E45" stroke-width="8" stroke-linecap="round"/>
+<path d="M600 235V395" stroke="#164E45" stroke-width="8" stroke-linecap="round"/>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="5">
+<circle cx="360" cy="205" r="13"/><circle cx="840" cy="205" r="13"/>
+<circle cx="360" cy="425" r="13"/><circle cx="840" cy="425" r="13"/>
+</g>
+<g transform="translate(40 120)">
+<rect width="300" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="22" fill="#164E45"/>
+<path d="M31 42h22M42 31v22" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="78" y="50" font-size="26" font-weight="800" fill="#17332D">Introduction</text>
+<text x="25" y="105" font-size="20" font-weight="700" fill="#2F7D62">systems and safety learning</text>
+</g>
+<g transform="translate(860 120)">
+<rect width="300" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="22" fill="#2F7D62"/>
+<path d="M42 56V30M42 43c-9-8-16-4-19 3 9 5 15 4 19-3M42 43c9-8 16-4 19 3-9 5-15 4-19-3" fill="none" stroke="#FFF8E8" stroke-width="3" stroke-linecap="round"/>
+<text x="78" y="50" font-size="26" font-weight="800" fill="#17332D">Vegetables</text>
+<text x="25" y="98" font-size="20" font-weight="700" fill="#2F7D62">design, production</text>
+<text x="25" y="129" font-size="20" font-weight="700" fill="#2F7D62">and evidence</text>
+</g>
+<g transform="translate(40 340)">
+<rect width="300" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="22" fill="#7A4E2D"/>
+<path d="M28 49l9-9 7 6 12-17" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="50" font-size="26" font-weight="800" fill="#17332D">Beef</text>
+<text x="25" y="94" font-size="19" font-weight="700" fill="#2F7D62">research, practical preparation</text>
+<text x="25" y="125" font-size="19" font-weight="700" fill="#2F7D62">and evaluation</text>
+</g>
+<g transform="translate(860 340)">
+<rect width="300" height="170" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="42" cy="42" r="22" fill="#D89A3D"/>
+<ellipse cx="39" cy="44" rx="12" ry="10" fill="none" stroke="#17332D" stroke-width="3"/>
+<circle cx="51" cy="35" r="7" fill="none" stroke="#17332D" stroke-width="3"/>
+<path d="M57 35l8 4-8 4" fill="none" stroke="#17332D" stroke-width="3"/>
+<text x="78" y="50" font-size="26" font-weight="800" fill="#17332D">Poultry</text>
+<text x="25" y="94" font-size="19" font-weight="700" fill="#2F7D62">development, systems</text>
+<text x="25" y="125" font-size="19" font-weight="700" fill="#2F7D62">and responsible decisions</text>
+</g>
+<g transform="translate(420 150)">
+<rect width="360" height="310" rx="30" fill="#164E45"/>
+<text x="180" y="54" text-anchor="middle" font-size="23" font-weight="800" fill="#FFF8E8">What changed in my thinking?</text>
+<g font-size="21" font-weight="700" fill="#FFF8E8">
+<text x="30" y="112">evidence</text>
+<text x="30" y="163">example</text>
+<text x="30" y="214">limitation</text>
+<text x="30" y="265">next question</text>
+</g>
+<g stroke="#D89A3D" stroke-width="3" stroke-linecap="round">
+<path d="M135 108H325"/><path d="M135 159H325"/>
+<path d="M145 210H325"/><path d="M165 261H325"/>
+</g>
+</g>
+<g transform="translate(120 535)">
+<rect width="960" height="74" rx="24" fill="#FFF8E8" stroke="#164E45" stroke-width="4"/>
+<text x="28" y="30" font-size="22" font-weight="800" fill="#17332D">Source register</text>
+<text x="28" y="58" font-size="18" font-weight="700" fill="#2F7D62">source</text>
+<text x="245" y="58" font-size="18" font-weight="700" fill="#2F7D62">purpose</text>
+<text x="475" y="58" font-size="18" font-weight="700" fill="#2F7D62">evidence used</text>
+<text x="720" y="58" font-size="18" font-weight="700" fill="#2F7D62">reliability note</text>
+</g>
+</g>
+<rect x="155" y="620" width="890" height="34" rx="17" fill="#164E45"/>
+<text x="600" y="643" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" fill="#FFF8E8">Synthesize across enterprises; do not repeat isolated facts</text>
+<text x="600" y="668" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#17332D">Final submission format and any additional requirement: Teacher to confirm</text>
+</svg>

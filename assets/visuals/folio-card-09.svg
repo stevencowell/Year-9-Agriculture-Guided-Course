@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 9 — Beef practical preparation</title>
+<desc id="desc">A Year 9 Agriculture folio card showing preparation before, during and after beef practical learning, with teacher-controlled boundaries for activities, safety and evidence.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 112C190 70 370 105 550 68S920 94 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 585C220 545 420 582 620 548S980 574 1200 530V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="800" fill="#17332D">FOLIO 09 • BEEF PRACTICAL PREPARATION</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M175 318H850" fill="none" stroke="#164E45" stroke-width="10" stroke-linecap="round"/>
+<path d="M835 302l24 16-24 16" fill="none" stroke="#164E45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#D89A3D" stroke="#FFF8E8" stroke-width="5">
+<circle cx="175" cy="318" r="15"/><circle cx="450" cy="318" r="15"/><circle cx="725" cy="318" r="15"/>
+</g>
+<g transform="translate(45 125)">
+<rect width="310" height="175" rx="25" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#164E45"/>
+<path d="M32 45h26M45 32v26" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="85" y="53" font-size="28" font-weight="800" fill="#17332D">Before</text>
+<text x="25" y="101" font-size="20" font-weight="700" fill="#2F7D62">listen to briefing</text>
+<text x="25" y="132" font-size="20" font-weight="700" fill="#2F7D62">identify evidence focus</text>
+<text x="25" y="163" font-size="20" font-weight="700" fill="#2F7D62">ask questions</text>
+</g>
+<g transform="translate(320 345)">
+<rect width="310" height="175" rx="25" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#2F7D62"/>
+<path d="M31 45l9 9 18-23" fill="none" stroke="#FFF8E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="85" y="53" font-size="28" font-weight="800" fill="#17332D">During</text>
+<text x="25" y="101" font-size="20" font-weight="700" fill="#2F7D62">follow teacher direction</text>
+<text x="25" y="132" font-size="20" font-weight="700" fill="#2F7D62">observe safely</text>
+<text x="25" y="163" font-size="20" font-weight="700" fill="#2F7D62">record only when directed</text>
+</g>
+<g transform="translate(595 125)">
+<rect width="310" height="175" rx="25" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="45" cy="45" r="24" fill="#7A4E2D"/>
+<path d="M31 33h28v25H31zM37 40h16M37 48h12" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="85" y="53" font-size="28" font-weight="800" fill="#17332D">After</text>
+<text x="25" y="101" font-size="20" font-weight="700" fill="#2F7D62">organise notes</text>
+<text x="25" y="132" font-size="20" font-weight="700" fill="#2F7D62">caption evidence</text>
+<text x="25" y="163" font-size="20" font-weight="700" fill="#2F7D62">reflect on decisions</text>
+</g>
+<g transform="translate(930 135)">
+<rect width="225" height="170" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<path d="M42 92q15-34 64-34 45 0 60 29l-6 36q-20 18-59 17-40-1-63-19z" fill="#7A4E2D" stroke="#17332D" stroke-width="4"/>
+<circle cx="166" cy="86" r="20" fill="#7A4E2D" stroke="#17332D" stroke-width="4"/>
+<path d="M170 68l10-17 6 20M156 69l-9-17-5 20M59 121v30M94 136v31M135 132v31M163 118v30M42 96q-19-9-25-26" fill="none" stroke="#17332D" stroke-width="4" stroke-linecap="round"/>
+<circle cx="173" cy="83" r="3" fill="#FFF8E8"/>
+<text x="112.5" y="25" text-anchor="middle" font-size="14" font-weight="800" fill="#164E45">Generic cattle context</text>
+</g>
+</g>
+<rect x="70" y="548" width="1060" height="70" rx="24" fill="#D89A3D" stroke="#7A4E2D" stroke-width="4"/>
+<text x="600" y="574" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="800" fill="#17332D">Teacher-observed evidence boundary</text>
+<text x="600" y="602" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#17332D">Activity, roles, handling method, safety procedure and evidence requirement: Teacher to confirm</text>
+<rect x="315" y="632" width="570" height="35" rx="18" fill="#164E45"/>
+<text x="600" y="656" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" fill="#FFF8E8">Preparation supports safe, useful observation</text>
+</svg>

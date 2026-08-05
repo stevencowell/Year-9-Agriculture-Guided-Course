@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Folio card 2 — Agriculture systems and enterprises</title>
+<desc id="desc">A Year 9 Agriculture folio card showing a farm-system loop, four comparison lenses and two blank enterprise comparison cards for evidence-based analysis.</desc>
+<rect width="1200" height="675" fill="#DCEFF3"/>
+<path d="M0 112C190 70 370 105 550 68S920 94 1200 52V0H0Z" fill="#2F7D62" opacity=".18"/>
+<path d="M0 575C220 535 420 575 620 540S980 568 1200 523V675H0Z" fill="#164E45" opacity=".1"/>
+<text x="600" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#17332D">FOLIO 02 • SYSTEMS &amp; ENTERPRISES</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<g transform="translate(355 120)">
+<rect width="490" height="245" rx="32" fill="#FFF8E8" stroke="#164E45" stroke-width="6"/>
+<text x="245" y="42" text-anchor="middle" font-size="26" font-weight="800" fill="#17332D">GENERIC FARM-SYSTEM LOOP</text>
+<g font-size="21" font-weight="800" text-anchor="middle">
+<rect x="25" y="91" width="102" height="54" rx="20" fill="#164E45"/>
+<text x="76" y="125" fill="#FFF8E8">Inputs</text>
+<rect x="145" y="91" width="115" height="54" rx="20" fill="#2F7D62"/>
+<text x="202.5" y="125" fill="#FFF8E8">Processes</text>
+<rect x="278" y="91" width="102" height="54" rx="20" fill="#D89A3D"/>
+<text x="329" y="125" fill="#17332D">Outputs</text>
+<rect x="398" y="91" width="72" height="54" rx="20" fill="#7A4E2D"/>
+<text x="438" y="125" font-size="14" fill="#FFF8E8">Feedback</text>
+</g>
+<g fill="none" stroke="#17332D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M127 118h18"/><path d="M138 110l9 8-9 8"/>
+<path d="M260 118h18"/><path d="M271 110l9 8-9 8"/>
+<path d="M380 118h18"/><path d="M391 110l9 8-9 8"/>
+<path d="M434 145v47H76v-47"/><path d="M68 157l8-12 8 12"/>
+</g>
+<text x="245" y="218" text-anchor="middle" font-size="20" font-weight="700" fill="#2F7D62">Inputs → processes → outputs → feedback</text>
+</g>
+<g font-size="22" font-weight="800" text-anchor="middle">
+<g transform="translate(75 145)">
+<rect width="220" height="76" rx="22" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="40" cy="38" r="20" fill="#164E45"/>
+<path d="M31 38h18M40 29v18" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round"/>
+<text x="135" y="46" fill="#17332D">Purpose</text>
+</g>
+<g transform="translate(905 145)">
+<rect width="220" height="76" rx="22" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="40" cy="38" r="20" fill="#2F7D62"/>
+<path d="M29 47l11-18 11 18z" fill="none" stroke="#FFF8E8" stroke-width="4" stroke-linejoin="round"/>
+<text x="135" y="46" fill="#17332D">Resources</text>
+</g>
+<g transform="translate(75 270)">
+<rect width="220" height="76" rx="22" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="40" cy="38" r="20" fill="#D89A3D"/>
+<circle cx="35" cy="32" r="7" fill="none" stroke="#17332D" stroke-width="3"/>
+<circle cx="48" cy="35" r="6" fill="none" stroke="#17332D" stroke-width="3"/>
+<path d="M24 50q11-12 22 0M39 51q9-10 18 0" fill="none" stroke="#17332D" stroke-width="3"/>
+<text x="135" y="46" fill="#17332D">People</text>
+</g>
+<g transform="translate(905 270)">
+<rect width="220" height="76" rx="22" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<circle cx="40" cy="38" r="20" fill="#7A4E2D"/>
+<path d="M40 51V31M40 39c-8-7-14-4-17 2 8 5 14 4 17-2M40 39c8-7 14-4 17 2-8 5-14 4-17-2" fill="none" stroke="#FFF8E8" stroke-width="3" stroke-linecap="round"/>
+<text x="135" y="46" fill="#17332D">Environment</text>
+</g>
+</g>
+<g transform="translate(70 395)">
+<rect width="500" height="185" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<rect width="500" height="52" rx="26" fill="#164E45"/>
+<path d="M0 26h500v26H0z" fill="#164E45"/>
+<text x="250" y="35" text-anchor="middle" font-size="27" font-weight="800" fill="#FFF8E8">Enterprise A</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="28" y="88">similarity</text><text x="28" y="119">difference</text>
+<text x="28" y="150">evidence</text><text x="278" y="150">implication</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M140 84H465"/><path d="M140 115H465"/>
+<path d="M115 146H245"/><path d="M382 146H465"/>
+</g>
+</g>
+<g transform="translate(630 395)">
+<rect width="500" height="185" rx="26" fill="#FFF8E8" stroke="#164E45" stroke-width="5"/>
+<rect width="500" height="52" rx="26" fill="#2F7D62"/>
+<path d="M0 26h500v26H0z" fill="#2F7D62"/>
+<text x="250" y="35" text-anchor="middle" font-size="27" font-weight="800" fill="#FFF8E8">Enterprise B</text>
+<g font-size="21" font-weight="700" fill="#2F7D62">
+<text x="28" y="88">similarity</text><text x="28" y="119">difference</text>
+<text x="28" y="150">evidence</text><text x="278" y="150">implication</text>
+</g>
+<g stroke="#7A4E2D" stroke-width="3" stroke-linecap="round">
+<path d="M140 84H465"/><path d="M140 115H465"/>
+<path d="M115 146H245"/><path d="M382 146H465"/>
+</g>
+</g>
+</g>
+<rect x="345" y="605" width="510" height="45" rx="23" fill="#164E45"/>
+<text x="600" y="635" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="800" fill="#FFF8E8">Explain relationships, not just lists</text>
+</svg>

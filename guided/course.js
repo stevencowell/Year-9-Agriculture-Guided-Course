@@ -103,7 +103,7 @@
     if (!guidance) return "";
     const id = `plan-guidance-${section.id.replace(".", "-")}`;
     const sheets = guidance.sheets.map((sheet) => `<figure class="plan-sheet-card"><a class="plan-preview-link zoomable-infographic" href="${esc(sheet.open)}" target="_blank" rel="noopener" aria-label="Open larger original source in a new tab: ${esc(sheet.title)}">${sheet.preview ? `<img src="${esc(sheet.preview)}" alt="${esc(sheet.alt)}">` : `<span class="plan-document-placeholder" role="img" aria-label="${esc(sheet.alt)}">Authorised source document</span>`}<span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></a><figcaption><strong>${esc(sheet.title)}</strong><span>${esc(sheet.caption)}</span>${sheet.sourceUrl ? `<span><a href="${esc(sheet.sourceUrl)}" target="_blank" rel="noopener">Authorised Drive source ↗</a></span>` : ""}<span class="plan-actions"><a class="plan-open-link" href="${esc(sheet.open)}" target="_blank" rel="noopener">Open larger original source <span aria-hidden="true">↗</span></a>${sheet.original ? `<a class="plan-download-link" href="${esc(sheet.original)}" download>Download original file</a>` : ""}</span></figcaption></figure>`).join("");
-    return `<section class="plan-guidance" aria-labelledby="${id}"><p class="eyebrow">Verified project plans</p><h3 id="${id}">${esc(guidance.heading)}</h3>${guidance.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}<h4>Plan-reading takeaways</h4><ul>${guidance.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul><div class="callout"><strong>Drawing source boundary:</strong> ${esc(guidance.boundary)}</div><div class="plan-sheet-gallery">${sheets}</div></section>`;
+    return `<section class="plan-guidance" aria-labelledby="${id}"><p class="eyebrow">Project plans</p><h3 id="${id}">${esc(guidance.heading)}</h3>${guidance.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}<h4>Plan-reading takeaways</h4><ul>${guidance.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul><div class="plan-sheet-gallery">${sheets}</div></section>`;
   }
 
   function videoLearningHtml(section) {
@@ -124,8 +124,6 @@
         </div>
         <p class="video-learning__fallback"><strong>No embed or no YouTube?</strong> ${esc(video.fallback)}</p>
         <div class="video-learning__actions"><a class="btn ghost" href="${esc(video.url)}" target="_blank" rel="noopener">Open ${esc(video.title)} on YouTube <span aria-hidden="true">↗</span></a><a href="${esc(video.relatedSourceUrl)}" target="_blank" rel="noopener">Read the supporting source <span aria-hidden="true">↗</span></a></div>
-        <div class="callout video-learning__disclaimer"><strong>Teacher, plan and SOP boundary:</strong> ${esc(video.disclaimer)}</div>
-        <p class="video-learning__source-check"><strong>Source and availability check:</strong> ${esc(video.sourceCheck)}</p>
       </section>`;
     }).join("");
   }
@@ -144,7 +142,6 @@
   function theoryHtml(section, index, moduleNumber) {
     const teachingVisual = section.visual ? contextualVisual(moduleNumber, section.visual) : null;
     const visual = teachingVisual && index === 0 ? `<figure class="theory-visual"><a class="theory-visual__link zoomable-infographic" href="${esc(teachingVisual.image)}" target="_blank" rel="noopener" aria-label="Open teaching visual in a new tab: ${esc(teachingVisual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(teachingVisual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(teachingVisual.caption)}</figcaption></figure>` : "";
-    const sources = section.sources?.length ? `<div class="theory-sources"><strong>Sources used for this learning:</strong><ul>${section.sources.map((source) => `<li><a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)} <span aria-hidden="true">↗</span></a></li>`).join("")}</ul>${section.verificationNote ? `<p>${esc(section.verificationNote)}</p>` : ""}</div>` : "";
     return `<section class="card theory-section" id="theory-${moduleNumber}-${index + 1}" tabindex="-1">
       <p class="eyebrow">Theory ${index + 1}</p><h2>${esc(section.title)}</h2>
       ${visual}
@@ -153,8 +150,6 @@
       ${toolPhotosHtml(section)}
       <h3 class="theory-chunk-heading">Key takeaways</h3><ul>${section.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
       ${videoLearningHtml(section)}
-      <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
-      ${sources}
     </section>`;
   }
 
@@ -186,8 +181,6 @@
     document.querySelector("[data-module-kicker]").textContent = `${module.project} · Module ${module.projectModule} · ${cadence}`;
     document.querySelector("[data-module-title]").textContent = module.title;
     document.querySelector("[data-module-summary]").textContent = module.summary;
-    const outcomeLine = document.querySelector("[data-module-outcomes]");
-    if (outcomeLine) outcomeLine.textContent = `Outcome opportunities: ${module.outcomes.join(" · ")}. These codes are shown for curriculum transparency and are not quiz content.`;
     host.innerHTML = `<section class="card progress-panel"><strong data-progress-text>0% evidence entered</strong><div class="progress-track"><div class="progress-fill" data-progress-fill></div></div><div class="student-grid"><label>Student name<input data-save data-required name="student-name" type="text" autocomplete="name"></label><label>Class<input data-save data-required name="student-class" type="text"></label></div><p class="save-state" data-save-state>Autosaves on this browser and device. Not submitted.</p><div class="module-support"><a href="busy-work/activity.html?id=${encodeURIComponent(module.busyWorkId)}">Practise this topic in Busy Work →</a><a href="youtube-library/">Open the project-specific video library →</a><a href="folio.html">Add evidence to the folio →</a></div></section>${module.sections.map((section, index) => theoryHtml(section, index, number)).join("")}${checksHtml(module, number)}${writtenHtml(module, number)}<section class="card theory-section completion-box"><h2>Module completion</h2><label class="option"><input data-save type="checkbox" name="module-complete"> I have completed the theory, checks and written evidence, then saved or printed it as directed.</label><button class="btn" type="button" onclick="window.print()">Print / Save PDF</button></section><nav class="module-nav" aria-label="Module navigation">${number > 1 ? `<a class="btn ghost" href="module.html?module=${number - 1}">← Previous module</a>` : `<a class="btn ghost" href="index.html">← Course home</a>`}${number < course.modules.length ? `<a class="btn" href="module.html?module=${number + 1}">Next module →</a>` : `<a class="btn" href="folio.html">Open folio →</a>`}</nav>`;
     module.checks.forEach((check, index) => host.querySelector(`[data-check-button="${index}"]`).addEventListener("click", () => { const selected = host.querySelector(`input[name="check-${index}"]:checked`); const feedback = host.querySelector(`[data-check-feedback="${index}"]`); if (!selected) { feedback.className = "feedback bad"; feedback.textContent = "Choose an answer first."; return; } const correct = Number(selected.value) === check.answerIndex; feedback.className = `feedback ${correct ? "good" : "bad"}`; feedback.textContent = `${correct ? "Correct. " + check.correctFeedback : "Not yet. " + check.incorrectFeedback}`; }));
     host.querySelectorAll("[data-toggle]").forEach((button) => button.addEventListener("click", () => { const panel = host.querySelector(`#${CSS.escape(button.dataset.toggle)}`); panel.hidden = !panel.hidden; button.setAttribute("aria-expanded", String(!panel.hidden)); }));
@@ -220,8 +213,7 @@
       visualLink.insertAdjacentHTML("afterend", `<p class="folio-visual-caption">${esc(card.dataset.visualCaption || "Teaching visual for this evidence card. Open the original for a larger view; adjacent text controls its meaning.")}</p>`);
       card.insertAdjacentHTML("afterbegin", '<p class="print-identity" data-print-identity></p>');
       const relatedModule = Number(card.dataset.module) || 1;
-      const outcomes = card.dataset.outcomes || "Teacher to confirm";
-      card.insertAdjacentHTML("beforeend", `<p class="folio-meta"><a href="module.html?module=${relatedModule}">Related learning: Module ${relatedModule}</a><span>Outcome opportunities: ${esc(outcomes)}</span></p>`);
+      card.insertAdjacentHTML("beforeend", `<p class="folio-meta"><a href="module.html?module=${relatedModule}">Related learning: Module ${relatedModule}</a></p>`);
       card.querySelectorAll("textarea[data-save]").forEach((field) => { field.dataset.folioField = ""; field.setAttribute("aria-label", `${card.querySelector("h2").textContent.trim()} response`); });
       card.insertAdjacentHTML("beforeend", `<label>Evidence caption<textarea data-folio-field data-required name="folio-${index + 1}-caption" placeholder="This evidence shows…"></textarea></label><label>Source or teacher checkpoint<textarea data-folio-field data-required name="folio-${index + 1}-source" placeholder="Lesson, source, demonstration or feedback used…"></textarea></label><label class="option"><input data-folio-field type="checkbox" name="folio-${index + 1}-complete"> Evidence checked and ready</label><label>Optional authorised photo<input type="file" accept="image/*" data-photo></label><button class="btn ghost photo-remove" type="button" data-photo-remove hidden>Remove saved photo</button><div class="photo-preview" data-photo-preview hidden></div>`);
     });

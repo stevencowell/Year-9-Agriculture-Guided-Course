@@ -1,13 +1,45 @@
 {
   "package": "Year 9 Agriculture guided-course visual package",
-  "asset_count": 17,
+  "asset_count": 21,
   "language": "Australian English",
   "visual_system": {
     "palette": ["#164E45", "#2F7D62", "#D89A3D", "#7A4E2D", "#FFF8E8", "#DCEFF3", "#17332D"],
-    "style": "Accessible flat-vector agricultural illustrations and rounded infographic cards",
+    "style": "Contextual agricultural photography for course identity and theory; accessible vector evidence organisers retained only where they clarify a student task",
     "external_dependencies": "None"
   },
   "assets": [
+    {
+      "filename": "photography/year9-agriculture-hero-v2.png",
+      "title": "Year 9 Agriculture contextual course photograph",
+      "purpose": "Photographic landing hero and Term 1 context, connecting the four study areas without claiming to depict the school farm.",
+      "source_boundary": "Generated contextual image only; no local farm layout, capacity, measurement, breed, practical procedure or quantitative claim is represented.",
+      "alt_text": "Australian agricultural landscape with vegetable beds, grazing cattle and a poultry shelter.",
+      "authorship_and_review": "Generated with ChatGPT image generation on 6 August 2026, then visually inspected by Codex for realism, source boundaries and safe representation."
+    },
+    {
+      "filename": "photography/vegetable-production-context.png",
+      "title": "Vegetable production contextual photograph",
+      "purpose": "Term 2 teaching context for plant, soil, mulch and irrigation observations.",
+      "source_boundary": "Does not establish a local crop, product, rate, growing method, yield or procedure.",
+      "alt_text": "Mixed vegetable beds with soil, mulch and drip irrigation.",
+      "authorship_and_review": "Generated with ChatGPT image generation on 6 August 2026, then visually inspected by Codex for credibility and source boundaries."
+    },
+    {
+      "filename": "photography/beef-production-context.png",
+      "title": "Beef production contextual photograph",
+      "purpose": "Term 3 teaching context for safe, distant observation of a beef enterprise.",
+      "source_boundary": "Does not authorise animal handling, depict the school enterprise or state a feedlot practice.",
+      "alt_text": "Beef cattle grazing in a fenced Australian paddock with gum trees.",
+      "authorship_and_review": "Generated with ChatGPT image generation on 6 August 2026, then visually inspected by Codex for credibility and safe representation."
+    },
+    {
+      "filename": "photography/poultry-production-context.png",
+      "title": "Poultry production contextual photograph",
+      "purpose": "Term 4 teaching context for a calm, enclosed poultry enterprise.",
+      "source_boundary": "Does not establish local welfare, biosecurity, incubator, handling or production procedures.",
+      "alt_text": "Poultry foraging beside a simple enclosed shelter.",
+      "authorship_and_review": "Generated with ChatGPT image generation on 6 August 2026, then visually inspected by Codex for credibility and safe representation."
+    },
     {
       "filename": "agriculture-hero.svg",
       "title": "Year 9 Agriculture — Australian mixed-farm learning",

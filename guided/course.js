@@ -130,8 +130,20 @@
     }).join("");
   }
 
+  function contextualVisual(moduleNumber, fallback) {
+    const visualByTerm = moduleNumber <= 5
+      ? { image: "assets/photography/year9-agriculture-hero-v2.png", alt: "Contextual Australian agricultural landscape showing connected vegetable, cattle and poultry enterprises", caption: "Contextual course photograph. Use the adjacent, authorised theory and teacher directions for local practice; this image is not evidence of the school farm." }
+      : moduleNumber <= 10
+        ? { image: "assets/photography/vegetable-production-context.png", alt: "Vegetable garden beds showing plant rows, soil, mulch and irrigation context", caption: "Contextual vegetable-production photograph. It supports observation and discussion; local crop, product, rate and procedure details remain teacher-directed." }
+        : moduleNumber <= 15
+          ? { image: "assets/photography/beef-production-context.png", alt: "Beef cattle grazing calmly in a fenced Australian paddock", caption: "Contextual beef-production photograph viewed at a safe distance. It does not authorise animal handling or represent the school enterprise." }
+          : { image: "assets/photography/poultry-production-context.png", alt: "Poultry foraging near a simple enclosed shelter", caption: "Contextual poultry-production photograph. Local welfare, biosecurity, incubator and handling procedures remain teacher-controlled." };
+    return fallback ? { ...fallback, ...visualByTerm } : visualByTerm;
+  }
+
   function theoryHtml(section, index, moduleNumber) {
-    const visual = section.visual ? `<figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><a class="theory-visual__link zoomable-infographic" href="${esc(section.visual.image)}" target="_blank" rel="noopener" aria-label="Open teaching visual in a new tab: ${esc(section.visual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(section.visual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(section.visual.caption)}</figcaption></figure>` : "";
+    const teachingVisual = section.visual ? contextualVisual(moduleNumber, section.visual) : null;
+    const visual = teachingVisual ? `<figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><a class="theory-visual__link zoomable-infographic" href="${esc(teachingVisual.image)}" target="_blank" rel="noopener" aria-label="Open teaching visual in a new tab: ${esc(teachingVisual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(teachingVisual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(teachingVisual.caption)}</figcaption></figure>` : "";
     const sources = section.sources?.length ? `<div class="theory-sources"><strong>Sources used for this learning:</strong><ul>${section.sources.map((source) => `<li><a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)} <span aria-hidden="true">↗</span></a></li>`).join("")}</ul>${section.verificationNote ? `<p>${esc(section.verificationNote)}</p>` : ""}</div>` : "";
     return `<section class="card theory-section" id="theory-${moduleNumber}-${index + 1}" tabindex="-1">
       <p class="eyebrow">Theory ${index + 1}</p><h2>${esc(section.title)}</h2>

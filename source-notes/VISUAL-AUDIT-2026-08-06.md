@@ -15,14 +15,14 @@ Four new, source-safe contextual photographs have been added:
 | Term 3 | `assets/photography/beef-production-context.png` | Establishes a safe, distant beef-production setting. | Does not authorise animal handling or depict the school enterprise. |
 | Term 4 | `assets/photography/poultry-production-context.png` | Establishes a calm poultry-enterprise context. | Local welfare, biosecurity and handling remain teacher-controlled. |
 
-The module renderer now applies the relevant term photograph to every named theory section, with an accurate caption and a visible larger-view route. Existing folio diagrams remain as evidence organisers, rather than trying to carry the course's visual identity.
+The module renderer now shows the relevant term photograph once at the opening theory section of each module, with an accurate caption and a visible larger-view route. It does not repeat that photograph beside the module's other theory sections. Existing folio diagrams remain as evidence organisers, rather than trying to carry the course's visual identity.
 
 ## Full-site audit register
 
 | Area | Original result | Decision |
 | --- | --- | --- |
 | Landing page | Fail — generic illustrated hero dominated first impression. | Replaced with a wide contextual photograph and clear source boundary. |
-| 57 theory sections | Fail — four vector maps repeated as the sole teaching visual. | Replaced at render time with the matching term photograph; each keeps a precise caption, alt text and larger view. |
+| 57 theory sections | Fail — four vector maps repeated as the sole teaching visual. | The first theory section of each of the 19 modules now carries one purposeful, term-relevant photograph with a precise caption, alt text and larger view; later sections rely on their own text, source links, video or task-specific evidence rather than duplicating the image. |
 | 12 folio cards | Pass with a limitation — the vectors are useful as evidence organisers, but not strong enough to represent the course alone. | Retained for task clarity; the new landing and theory imagery now carries the site's real-world visual identity. |
 | Busy Work | Pass — interactive mechanics are the primary learning visual and do not rely on generic illustrations. | No decorative image added; activity-specific images should be added only where they help the mechanic. |
 | Plans and diagrams | Conditional — only authorised source material may be used as a plan. | No fabricated farm/site plan added. The separate Plans page keeps its teacher/source boundaries. |
@@ -30,7 +30,7 @@ The module renderer now applies the relevant term photograph to every named theo
 
 ## Coverage and quality checks
 
-- 57 named theory sections receive a term-relevant photographic teaching visual.
+- All 19 modules have one term-relevant photographic teaching visual at their opening theory section; no theory page repeats that image simply for decoration.
 - Landing page has a wide photographic hero, not a vector illustration.
 - Every new image is a generated contextual illustration with no text, logo, unsafe practice, unverified local claim or technical instruction.
 - The existing vectors are retained only where they organise folio evidence; they are no longer the dominant visual language.

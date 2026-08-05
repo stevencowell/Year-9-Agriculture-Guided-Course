@@ -7,8 +7,10 @@
 | TASK 17C — Busy Work/YouTube | Complete | Activity map and 11 validated clips handed to integration |
 | TASK 17D — Beef/Poultry theory | Complete | 27 browser-authored sections, 270 questions and file-level validation integrated |
 | TASK 17E — visual package | Complete | 17 source-bounded SVGs authored; XML, native-ratio render and semantic audits complete |
-| TASK 17 — integration, QA and release | Active | Local validation complete: 2,553 structural checks, 92 desktop/mobile browser checks, 9 folio backup/restore checks and 11 live video endpoint checks; publication remains |
+| TASK 17 — integration, QA and release | Complete | Build commit `81a4d55` pushed; GitHub Pages enabled from `main`; live desktop/mobile rerun passed 92 checks; live folio backup/restore passed 9 checks; release marker and all five student destinations verified in the in-app browser on 6 August 2026 |
 
 States used: `Active`, `Paused`, `Complete`, `Action required`.
 
-This file is updated at release with validation, commit, push, Pages and live-render evidence.
+Live course: <https://stevencowell.github.io/Year-9-Agriculture-Guided-Course/>
+
+Canonical repository: <https://github.com/stevencowell/Year-9-Agriculture-Guided-Course>

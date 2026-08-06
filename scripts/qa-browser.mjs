@@ -48,8 +48,9 @@ async function viewportRun(label,viewport){
   const firstGroup=page.locator('.check-group').first();
   for(let index=0;index<10;index+=1){const check=firstGroup.locator('.check').nth(index);await check.getByRole('radio').first().check();await check.getByRole('button',{name:'Check answer'}).click();}
   await page.waitForTimeout(200);
-  must(progressEvents.length===1,`${label}: completing one ten-question group creates one automatic summary event`);
-  const eventPreview=progressEvents[0]||{};
+  must(progressEvents.some((event)=>event.eventType==='theory-section-in-progress'),`${label}: first checked response creates one in-progress summary event`);
+  must(progressEvents.length===2,`${label}: completing one ten-question group creates a distinct completion summary event`);
+  const eventPreview=progressEvents.find((event)=>event.eventType==='knowledge-check-completed')||{};
   must(eventPreview.course==='Year 9 Agriculture'&&eventPreview.module===1&&eventPreview.section==='knowledge-check-1',`${label}: knowledge-check event identifies only the permitted course location`);
   must(eventPreview.eventType==='knowledge-check-completed'&&Number.isInteger(eventPreview.progress)&&typeof eventPreview.timestamp==='string',`${label}: knowledge-check event contains its type, summary progress and timestamp`);
   must(Object.keys(eventPreview).sort().join(',')==='course,eventId,eventType,module,pilot,progress,section,timestamp',`${label}: automatic event schema excludes identity, answers and browsing details`);

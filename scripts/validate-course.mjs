@@ -95,9 +95,9 @@ requireCheck(/localStorage/.test(read('busy-work/busy.js')),'Busy Work autosaves
 const progressPilot = read('guided/progress-pilot.js');
 requireCheck(!/progress-pilot=steve-test/.test(progressPilot) && /steveIdentityPresent/.test(progressPilot),'Normal course URLs use the Steve-only local convenience gate');
 requireCheck(/mode:\s*"no-cors"/.test(progressPilot) && /credentials:\s*"include"/.test(progressPilot),'Progress pilot uses the private credentialed background receiver path');
-requireCheck(/knowledge-check-completed/.test(progressPilot) && /folio-response-persisted/.test(progressPilot) && /module-completed/.test(progressPilot),'Progress pilot permits only the three approved meaningful event types');
+requireCheck(/theory-section-in-progress/.test(progressPilot) && /knowledge-check-completed/.test(progressPilot) && /folio-response-persisted/.test(progressPilot) && /module-completed/.test(progressPilot),'Progress pilot permits only the four approved meaningful event types');
 requireCheck(!/(?:studentName|studentClass|answer|responseText|screenshot|browsing)\s*:/.test(progressPilot),'Progress pilot payload code excludes identity, answers, screenshots and browsing fields');
-requireCheck(/progress-pilot\.js\?v=20260806c/.test(read('folio.html')),'Folio loads the Steve-only automatic summary sender');
+requireCheck(/progress-pilot\.js\?v=20260806d/.test(read('folio.html')),'Folio loads the Steve-only automatic summary sender');
 requireCheck(/Static password deliberately not implemented/.test(read('teacher-progress-demo.html')),'Teacher dashboard shell states the static-password security boundary');
 requireCheck(!/teacher-progress-demo\.html/.test(read('module.html')),'Teacher dashboard is absent from student module navigation');
 

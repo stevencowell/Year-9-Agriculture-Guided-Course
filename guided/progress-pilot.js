@@ -75,18 +75,31 @@
       if (!button) return;
       const group = button.closest(".check-group");
       if (!group) return;
+      const currentCheck = button.closest(".check");
+      const hasCheckedResponse = Boolean(currentCheck?.querySelector('input[type="radio"]:checked'))
+        && Boolean(currentCheck?.querySelector(".feedback")?.textContent.trim());
+      if (!hasCheckedResponse) return;
       const checks = [...group.querySelectorAll(".check")];
       const completed = checks.length === 10 && checks.every((check) =>
         Boolean(check.querySelector('input[type="radio"]:checked')) && Boolean(check.querySelector(".feedback")?.textContent.trim())
       );
-      if (!completed) return;
       const theoryIndex = Number(group.id.split("-").pop()) + 1;
-      void sendSummary(root, "knowledge-check-completed", moduleNumber, `knowledge-check-${theoryIndex}`, progressPercent(root));
+      const section = `knowledge-check-${theoryIndex}`;
+      if (completed) void sendSummary(root, "knowledge-check-completed", moduleNumber, section, progressPercent(root));
+      else void sendSummary(root, "theory-section-in-progress", moduleNumber, section, progressPercent(root));
     });
 
     root.querySelector('[name="module-complete"]')?.addEventListener("change", (event) => {
       if (event.target.checked) void sendSummary(root, "module-completed", moduleNumber, "module-completed", 100);
     });
+
+    const restoredGroup = [...root.querySelectorAll(".check-group")].find((group) =>
+      Boolean(group.querySelector('input[type="radio"]:checked'))
+    );
+    if (restoredGroup) {
+      const theoryIndex = Number(restoredGroup.id.split("-").pop()) + 1;
+      void sendSummary(root, "theory-section-in-progress", moduleNumber, `knowledge-check-${theoryIndex}`, progressPercent(root));
+    }
   }
 
   function bindFolio() {

@@ -30,6 +30,13 @@ await page.evaluate(() => localStorage.clear());
 await page.goto(`${base}/module.html?module=1`, { waitUntil: 'networkidle' });
 await page.locator('[name="student-name"]').fill('Steve Cowell');
 await page.locator('[name="student-class"]').fill('yr 9 Ag');
+await page.locator('.check-group').first().locator('.check').first().getByRole('radio').first().check();
+await page.reload({ waitUntil: 'networkidle' });
+await page.waitForTimeout(250);
+must(events.length === 1, 'Restored first knowledge-check response sends one in-progress event');
+const inProgress = events[0] || {};
+must(inProgress.eventType === 'theory-section-in-progress' && inProgress.section === 'knowledge-check-1' && inProgress.progress > 0 && inProgress.progress < 100, 'In-progress event is truthful and below completion');
+must(Object.keys(inProgress).sort().join(',') === 'course,eventId,eventType,module,pilot,progress,section,timestamp', 'In-progress event contains only the minimal schema');
 const group = page.locator('.check-group').first();
 for (let index = 0; index < 10; index += 1) {
   const check = group.locator('.check').nth(index);
@@ -37,8 +44,8 @@ for (let index = 0; index < 10; index += 1) {
   await check.getByRole('button', { name: 'Check answer' }).click();
 }
 await page.waitForTimeout(250);
-must(events.length === 1, 'Completed ten-question group sends one event');
-const knowledge = events[0] || {};
+must(events.length === 2, 'Completed ten-question group sends a distinct completion event');
+const knowledge = events.find((event) => event.eventType === 'knowledge-check-completed') || {};
 must(knowledge.eventType === 'knowledge-check-completed' && knowledge.section === 'knowledge-check-1', 'Knowledge event uses the permitted type and section');
 must(Object.keys(knowledge).sort().join(',') === 'course,eventId,eventType,module,pilot,progress,section,timestamp', 'Knowledge event contains only the minimal schema');
 await page.locator('[name="module-complete"]').check();
@@ -63,4 +70,4 @@ if (failures.length) {
   console.error(JSON.stringify({ passed: false, checks: checks.length, failures, events, browserErrors }, null, 2));
   process.exit(1);
 }
-console.log(JSON.stringify({ passed: true, checks: checks.length, capturedEvents: 3 }, null, 2));
+console.log(JSON.stringify({ passed: true, checks: checks.length, capturedEvents: 4 }, null, 2));

@@ -31,6 +31,7 @@ async function viewportRun(label,viewport){
   }
 
   await page.goto(`${base}/module.html?module=1`,{waitUntil:'networkidle'});
+  must(await page.locator('.progress-pilot').count()===0,`${label}: ordinary student module does not show the tracker pilot`);
   const firstCheck=page.locator('.check').first(); const answerIndex=await page.evaluate(()=>window.COURSE_DATA.modules[0].checks[0].answerIndex);
   await firstCheck.getByRole('radio').nth((answerIndex+1)%4).check(); await firstCheck.getByRole('button',{name:'Check answer'}).click();
   must((await firstCheck.locator('.feedback').innerText()).startsWith('Not yet.'),`${label}: incorrect MCQ gives useful feedback`);
@@ -38,6 +39,31 @@ async function viewportRun(label,viewport){
   must((await firstCheck.locator('.feedback').innerText()).startsWith('Correct.'),`${label}: correct MCQ gives feedback`);
   await page.locator('.written-evidence textarea').first().fill('Autosave browser QA response.'); await page.waitForTimeout(150); await page.reload({waitUntil:'networkidle'});
   must(await page.locator('.written-evidence textarea').first().inputValue()==='Autosave browser QA response.',`${label}: module autosave restores`); await page.evaluate(()=>localStorage.clear());
+
+  await page.goto(`${base}/module.html?module=1&progress-pilot=steve-test`,{waitUntil:'networkidle'});
+  must(await page.locator('.progress-pilot').count()===1,`${label}: deliberate Steve test URL shows the tracker pilot`);
+  must(await page.getByText(/Central receiver disabled/i).count()===1,`${label}: tracker pilot clearly states that central sending is disabled`);
+  await page.locator('[name="student-name"]').fill('Steve Test');
+  await page.locator('[name="student-class"]').fill('Pilot Class');
+  await page.locator('[data-pilot-confirm]').check();
+  await page.locator('[data-pilot-prepare]').click();
+  const eventPreview=JSON.parse(await page.locator('[data-pilot-output]').inputValue());
+  must(eventPreview.studentName==='Steve Test'&&eventPreview.studentClass==='Pilot Class',`${label}: pilot event contains only the deliberate test identity`);
+  must(eventPreview.course==='Year 9 Agriculture'&&eventPreview.module===1&&eventPreview.section==='module-summary',`${label}: pilot event identifies only the course module and summary section`);
+  must(Number.isInteger(eventPreview.progress)&&typeof eventPreview.timestamp==='string',`${label}: pilot event contains summary progress and timestamp`);
+  must(Object.keys(eventPreview).sort().join(',')==='course,module,progress,section,studentClass,studentName,timestamp',`${label}: pilot event schema excludes answers and browsing details`);
+  await page.screenshot({path:path.join(output,`${label}-progress-pilot.png`),fullPage:false});
+  await page.locator('[data-pilot-clear]').click();
+  must(await page.locator('[data-pilot-output]').inputValue()==='',`${label}: pilot preview can be cleared without changing course autosave`);
+  await page.evaluate(()=>localStorage.clear());
+
+  await page.goto(`${base}/teacher-progress-demo.html`,{waitUntil:'networkidle'});
+  must(await page.getByText('Action required',{exact:true}).count()===1,`${label}: teacher dashboard shell remains Action required`);
+  must(await page.getByText(/Secure receiver not configured/i).count()===1,`${label}: teacher dashboard shell has no live receiver`);
+  must(await page.getByText(/Static password deliberately not implemented/i).count()===1,`${label}: teacher dashboard shell explains the static-password boundary`);
+  must(await page.locator('.dashboard-course-card').count()===3,`${label}: planned post-sign-in discovery uses course cards`);
+  must((await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth))<=1,`${label}: teacher dashboard shell has no horizontal overflow`);
+  await page.screenshot({path:path.join(output,`${label}-teacher-dashboard.png`),fullPage:true});
 
   await page.goto(`${base}/folio.html`,{waitUntil:'networkidle'});
   must(await page.locator('.folio-card').count()===12,`${label}: folio has 12 cards`);
@@ -48,11 +74,11 @@ async function viewportRun(label,viewport){
   must(await page.locator('textarea').first().inputValue()==='Folio autosave browser QA.',`${label}: folio autosave restores`); await page.evaluate(()=>localStorage.clear());
   await page.screenshot({path:path.join(output,`${label}-folio.png`),fullPage:false});
 
-  await page.goto(`${base}/busy-work/`,{waitUntil:'networkidle'}); must(await page.locator('.busy-card').count()===21,`${label}: Busy Work landing has 21 activities`);
-  const activityLinks=page.locator('a[href^="activity.html"]'); must(await activityLinks.count()===21,`${label}: each Busy Work card must open an activity`);
-  await activityLinks.first().click(); await page.waitForLoadState('networkidle');
-  must(await page.locator('.task-card').count()===3,`${label}: Busy Work activity has three answerable tasks`);
-  await page.locator('input[type=radio]').first().check(); await page.getByRole('button',{name:'Check response'}).first().click(); must(await page.locator('.task-feedback').first().innerText()!=='',`${label}: Busy Work gives immediate feedback`);
+  const busyUrl='https://stevencowell.github.io/busy-worksheets/?library=agriculture-year-9';
+  const busyRedirect=await page.request.get(`${base}/busy-work/index.html`); const busyRedirectHtml=await busyRedirect.text();
+  must(busyRedirect.ok()&&busyRedirectHtml.includes(busyUrl),`${label}: Busy Work route targets the approved Year 9 Agriculture library`);
+  const busyLive=await page.request.get(busyUrl); const busyLiveHtml=await busyLive.text();
+  must(busyLive.ok()&&busyLiveHtml.includes('id="activity-grid"'),`${label}: approved live Busy Work hub resolves with its activity grid`);
 
   await page.goto(`${base}/youtube-library/`,{waitUntil:'networkidle'}); must(await page.locator('.video-card').count()===11,`${label}: YouTube library has 11 clips`);
   await page.locator('[data-play]').first().click(); must(await page.locator('iframe[src*="youtube-nocookie.com"]').count()===1,`${label}: click-to-load opens privacy-enhanced embed`); await page.keyboard.press('Escape');

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Disabled teacher progress dashboard pilot shell for Year 9 Agriculture.">
+  <title>Teacher progress dashboard pilot | Industrial Arts</title>
+  <link rel="stylesheet" href="guided/course.css?v=20260805">
+  <link rel="stylesheet" href="guided/progress-pilot.css?v=20260806">
+</head>
+<body>
+  <a class="skip-link" href="#dashboard-content">Skip to dashboard status</a>
+  <header class="site-header"><div class="nav-wrap"><a class="brand" href="https://stevencowell.github.io/Main-Page/">Industrial Arts Main Page</a></div></header>
+  <section class="module-hero"><div class="module-hero-inner"><p class="eyebrow">Teacher-only destination</p><h1>Progress dashboard pilot</h1><p>Zero-data shell for the planned school Google sign-in and course-card dashboard.</p></div></section>
+  <main id="dashboard-content" class="teacher-dashboard-shell">
+    <section class="card">
+      <span class="dashboard-status">Action required</span>
+      <h2>Secure receiver not configured</h2>
+      <p>This static page contains no student records and cannot receive progress events. Names, classes, progress and timestamps are personal information and must not be placed behind a GitHub Pages password.</p>
+      <p><strong>Static password deliberately not implemented.</strong> It would be visible in the published site code and would provide only a convenience gate, not access control.</p>
+    </section>
+
+    <section class="card">
+      <h2>Approved access model</h2>
+      <ol class="dashboard-flow">
+        <li>Enter from the discreet Teacher Dashboard link on the Industrial Arts Main Page.</li>
+        <li>Sign in once with an approved school Google account.</li>
+        <li>The server verifies the school account and an explicit teacher allow-list.</li>
+        <li>Choose a subject or course card.</li>
+        <li>View only the records permitted for that teacher.</li>
+      </ol>
+      <div class="dashboard-course-grid" aria-label="Planned course discovery after sign-in">
+        <article class="dashboard-course-card" aria-disabled="true"><h3>Year 9 Agriculture</h3><p>Planned pilot course. Receiver unavailable until school approval and configuration.</p></article>
+        <article class="dashboard-course-card" aria-disabled="true"><h3>Other Agriculture courses</h3><p>Not part of the current pilot.</p></article>
+        <article class="dashboard-course-card" aria-disabled="true"><h3>Industrial Arts courses</h3><p>Future discovery only; no records connected.</p></article>
+      </div>
+    </section>
+
+    <section class="card dashboard-requirements">
+      <h2>Minimum configuration needed</h2>
+      <ul>
+        <li>a school-approved server-side storage service and Australian/department-approved data location;</li>
+        <li>school Google OAuth configured by an authorised administrator;</li>
+        <li>server-side verification of account issuer, school domain and an explicit teacher allow-list;</li>
+        <li>separate student write and teacher read permissions;</li>
+        <li>a fixed record schema limited to name, class, course, module, section, progress and timestamp;</li>
+        <li>privacy notice, approval owner, retention period, secure deletion and access-correction process;</li>
+        <li>audit logging, rate limiting, backups and a tested incident-response contact.</li>
+      </ul>
+      <p>No magic link or second email confirmation is planned unless the approved provider requires it.</p>
+    </section>
+  </main>
+  <footer><div class="nav-wrap"><span>Industrial Arts teacher pilot</span><a href="https://stevencowell.github.io/Main-Page/">Return to Main Page</a></div></footer>
+</body>
+</html>

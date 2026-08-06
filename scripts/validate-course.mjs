@@ -17,7 +17,7 @@ const evalWindowData = (relative, key) => {
 
 const requiredFiles = [
   'index.html','module.html','folio.html','assessment.html','plans.html','.nojekyll',
-  'guided/course.css','guided/course.js','guided/data.js',
+  'teacher-progress-demo.html','guided/course.css','guided/course.js','guided/data.js','guided/progress-pilot.css','guided/progress-pilot.js',
   'busy-work/index.html','busy-work/activity.html','busy-work/data.js','busy-work/busy.js','busy-work/style.css',
   'youtube-library/index.html','youtube-library/library.js','youtube-library/library.css',
   'source-notes/COURSE-CONTRACT.md','source-notes/SOURCE-MAP.md','source-notes/ASSESSMENT-RECONCILIATION.md',
@@ -92,6 +92,12 @@ requireCheck(!mojibakeLeads.some((lead)=>joined.includes(lead)),'No mojibake mar
 requireCheck(/youtube-nocookie\.com/.test(read('youtube-library/library.js')),'YouTube playback uses privacy-enhanced embeds');
 requireCheck(/localStorage/.test(read('guided/course.js')) && /indexedDB/.test(read('guided/course.js')),'Course evidence uses device-local text and durable image storage');
 requireCheck(/localStorage/.test(read('busy-work/busy.js')),'Busy Work autosaves on device');
+const progressPilot = read('guided/progress-pilot.js');
+requireCheck(/progress-pilot=steve-test/.test(read('source-notes/PROGRESS-TRACKER-PILOT.md')) && /steve-test/.test(progressPilot),'Progress pilot is available only through its deliberate test URL');
+requireCheck(!/(?:fetch\s*\(|XMLHttpRequest|sendBeacon|WebSocket)/.test(progressPilot),'Progress pilot has no network-send path');
+requireCheck(!/(?:localStorage|sessionStorage|indexedDB)/.test(progressPilot),'Progress pilot does not persist prepared events');
+requireCheck(/Static password deliberately not implemented/.test(read('teacher-progress-demo.html')),'Teacher dashboard shell states the static-password security boundary');
+requireCheck(!/teacher-progress-demo\.html/.test(read('module.html')),'Teacher dashboard is absent from student module navigation');
 
 const report = {passed:failures.length===0,checks:pass.length+failures.length,passedChecks:pass.length,failures};
 const output = path.resolve(repo,'..','..','outputs');

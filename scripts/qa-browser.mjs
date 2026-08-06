@@ -42,7 +42,7 @@ async function viewportRun(label,viewport){
   await page.locator('.written-evidence textarea').first().fill('Autosave browser QA response.'); await page.waitForTimeout(150); await page.reload({waitUntil:'networkidle'});
   must(await page.locator('.written-evidence textarea').first().inputValue()==='Autosave browser QA response.',`${label}: module autosave restores`); await page.evaluate(()=>localStorage.clear());
 
-  await page.goto(`${base}/module.html?module=1&progress-pilot=steve-test`,{waitUntil:'networkidle'});
+  await page.goto(`${base}/module.html?module=1`,{waitUntil:'networkidle'});
   await page.locator('[name="student-name"]').fill('Steve Cowell');
   await page.locator('[name="student-class"]').fill('yr 9 Ag');
   const firstGroup=page.locator('.check-group').first();
@@ -76,7 +76,7 @@ async function viewportRun(label,viewport){
   await page.screenshot({path:path.join(output,`${label}-folio.png`),fullPage:false});
 
   progressEvents.length=0;
-  await page.goto(`${base}/folio.html?progress-pilot=steve-test`,{waitUntil:'networkidle'});
+  await page.goto(`${base}/folio.html`,{waitUntil:'networkidle'});
   await page.locator('[name="student-name"]').fill('Steve Cowell'); await page.locator('[name="student-class"]').fill('yr 9 Ag');
   await page.locator('#folio-card-01 textarea[data-save]').first().fill('Persisted synthetic folio QA response.'); await page.waitForTimeout(1350);
   must(progressEvents.length===1&&progressEvents[0].eventType==='folio-response-persisted',`${label}: persisted folio response creates one debounced automatic summary event`);

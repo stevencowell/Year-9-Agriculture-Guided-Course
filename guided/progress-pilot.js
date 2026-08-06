@@ -2,8 +2,6 @@
   "use strict";
 
   const params = new URLSearchParams(location.search);
-  if (params.get("progress-pilot") !== "steve-test") return;
-
   const course = window.COURSE_DATA;
   if (!course || course.shortTitle !== "Year 9 Agriculture") return;
 
@@ -17,7 +15,7 @@
   const saveSent = (value) => localStorage.setItem(sentKey, JSON.stringify(value));
   const eventId = () => `Y9AG-STEVE-${globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`}`;
 
-  function testIdentityPresent(root) {
+  function steveIdentityPresent(root) {
     const name = normalise(root.querySelector('[name="student-name"]')?.value);
     const studentClass = normalise(root.querySelector('[name="student-class"]')?.value);
     return name === "steve cowell" && studentClass === "yr 9 ag";
@@ -34,7 +32,9 @@
   }
 
   async function sendSummary(root, eventType, moduleNumber, section, progress) {
-    if (!testIdentityPresent(root)) return;
+    // This device-local match prevents ordinary students from attempting a write.
+    // The private receiver remains authoritative and verifies Steve's exact school Google account.
+    if (!steveIdentityPresent(root)) return;
     const signature = [eventType, moduleNumber, section, eventType === "folio-response-persisted" ? progress : "once"].join(":");
     const sent = loadSent();
     if (sent[signature]) return;

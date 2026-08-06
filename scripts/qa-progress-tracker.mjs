@@ -20,15 +20,14 @@ await page.route('https://script.google.com/**', async (route) => {
 });
 
 await page.goto(`${base}/module.html?module=1`, { waitUntil: 'networkidle' });
-await page.locator('[name="student-name"]').fill('Steve Cowell');
+await page.locator('[name="student-name"]').fill('Synthetic Student');
 await page.locator('[name="student-class"]').fill('yr 9 Ag');
-const ordinaryCheck = page.locator('.check').first();
-await ordinaryCheck.getByRole('radio').first().check();
-await ordinaryCheck.getByRole('button', { name: 'Check answer' }).click();
-must(events.length === 0, 'Ordinary module URL sends no progress event');
+await page.locator('[name="module-complete"]').check();
+await page.waitForTimeout(150);
+must(events.length === 0, 'Non-Steve local identity sends no progress event');
 await page.evaluate(() => localStorage.clear());
 
-await page.goto(`${base}/module.html?module=1&progress-pilot=steve-test`, { waitUntil: 'networkidle' });
+await page.goto(`${base}/module.html?module=1`, { waitUntil: 'networkidle' });
 await page.locator('[name="student-name"]').fill('Steve Cowell');
 await page.locator('[name="student-class"]').fill('yr 9 Ag');
 const group = page.locator('.check-group').first();
@@ -48,7 +47,7 @@ must(events.some((event) => event.eventType === 'module-completed' && event.prog
 await page.evaluate(() => localStorage.clear());
 
 events.length = 0;
-await page.goto(`${base}/folio.html?progress-pilot=steve-test`, { waitUntil: 'networkidle' });
+await page.goto(`${base}/folio.html`, { waitUntil: 'networkidle' });
 await page.locator('[name="student-name"]').fill('Steve Cowell');
 await page.locator('[name="student-class"]').fill('yr 9 Ag');
 await page.locator('#folio-card-01 textarea[data-save]').first().fill('Synthetic folio QA text that must not leave the browser.');

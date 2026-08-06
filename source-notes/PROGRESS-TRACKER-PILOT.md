@@ -1,11 +1,11 @@
 # Year 9 Agriculture progress-tracker pilot
 
-Status: Steve-only live integration test
+Status: Steve-only normal-URL live integration
 
 ## Live boundary
 
-- The sender runs only when a module or folio URL contains `progress-pilot=steve-test`.
-- It also requires the existing device-local fields to match `Steve Cowell` and `yr 9 Ag` exactly after normalisation.
+- The sender is available on normal module and folio URLs but requires the existing device-local fields to match `Steve Cowell` and `yr 9 Ag` exactly after normalisation before it attempts a write.
+- The static Pages site does not claim to authenticate Google identity. The private Apps Script receiver is authoritative: it verifies the active account is exactly `steven.cowell@education.nsw.gov.au` before accepting or parsing a progress event.
 - There is no separate save or submit button.
 - Only three existing meaningful actions can create summary events:
   - completion of all ten checked questions in one theory group;
@@ -15,7 +15,7 @@ Status: Steve-only live integration test
 - Names, class, answers, folio text, photos, screenshots, browsing activity and keystrokes are not transmitted.
 - The private receiver derives the test identity server-side as `Steve Cowell / yr 9 Ag`, accepts only the exact allow-listed school Google account and stores every accepted row as test-only.
 - Existing module `localStorage`, folio `localStorage` and photo `IndexedDB` behaviour remains unchanged.
-- Ordinary student URLs without the deliberate query parameter do not initialise the sender.
+- Other device-local names/classes do not attempt a write. A spoofed local Steve label is still rejected server-side unless the browser is authenticated as Steve's exact allow-listed school account.
 
 ## Reversal
 

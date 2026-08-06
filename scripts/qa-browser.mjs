@@ -10,6 +10,8 @@ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Fi
 
 async function viewportRun(label,viewport){
   const context=await browser.newContext({viewport,deviceScaleFactor:1}); const page=await context.newPage(); const browserErrors=[];
+  const progressEvents=[];
+  await page.route('https://script.google.com/**',async(route)=>{if(route.request().method()==='POST'){try{progressEvents.push(JSON.parse(route.request().postData()||'{}'));}catch(_){progressEvents.push({invalid:true});}}await route.fulfill({status:204,body:''});});
   page.on('pageerror',(error)=>browserErrors.push(error.message));
   page.on('response',(response)=>{if(response.status()>=400 && response.url().startsWith(base))browserErrors.push(`${response.status()} ${response.url()}`);});
   await page.goto(`${base}/index.html`,{waitUntil:'networkidle'});
@@ -31,7 +33,7 @@ async function viewportRun(label,viewport){
   }
 
   await page.goto(`${base}/module.html?module=1`,{waitUntil:'networkidle'});
-  must(await page.locator('.progress-pilot').count()===0,`${label}: ordinary student module does not show the tracker pilot`);
+  must(progressEvents.length===0,`${label}: ordinary student module does not initialise the tracker sender`);
   const firstCheck=page.locator('.check').first(); const answerIndex=await page.evaluate(()=>window.COURSE_DATA.modules[0].checks[0].answerIndex);
   await firstCheck.getByRole('radio').nth((answerIndex+1)%4).check(); await firstCheck.getByRole('button',{name:'Check answer'}).click();
   must((await firstCheck.locator('.feedback').innerText()).startsWith('Not yet.'),`${label}: incorrect MCQ gives useful feedback`);
@@ -41,20 +43,19 @@ async function viewportRun(label,viewport){
   must(await page.locator('.written-evidence textarea').first().inputValue()==='Autosave browser QA response.',`${label}: module autosave restores`); await page.evaluate(()=>localStorage.clear());
 
   await page.goto(`${base}/module.html?module=1&progress-pilot=steve-test`,{waitUntil:'networkidle'});
-  must(await page.locator('.progress-pilot').count()===1,`${label}: deliberate Steve test URL shows the tracker pilot`);
-  must(await page.getByText(/Central receiver disabled/i).count()===1,`${label}: tracker pilot clearly states that central sending is disabled`);
-  await page.locator('[name="student-name"]').fill('Steve Test');
-  await page.locator('[name="student-class"]').fill('Pilot Class');
-  await page.locator('[data-pilot-confirm]').check();
-  await page.locator('[data-pilot-prepare]').click();
-  const eventPreview=JSON.parse(await page.locator('[data-pilot-output]').inputValue());
-  must(eventPreview.studentName==='Steve Test'&&eventPreview.studentClass==='Pilot Class',`${label}: pilot event contains only the deliberate test identity`);
-  must(eventPreview.course==='Year 9 Agriculture'&&eventPreview.module===1&&eventPreview.section==='module-summary',`${label}: pilot event identifies only the course module and summary section`);
-  must(Number.isInteger(eventPreview.progress)&&typeof eventPreview.timestamp==='string',`${label}: pilot event contains summary progress and timestamp`);
-  must(Object.keys(eventPreview).sort().join(',')==='course,module,progress,section,studentClass,studentName,timestamp',`${label}: pilot event schema excludes answers and browsing details`);
+  await page.locator('[name="student-name"]').fill('Steve Cowell');
+  await page.locator('[name="student-class"]').fill('yr 9 Ag');
+  const firstGroup=page.locator('.check-group').first();
+  for(let index=0;index<10;index+=1){const check=firstGroup.locator('.check').nth(index);await check.getByRole('radio').first().check();await check.getByRole('button',{name:'Check answer'}).click();}
+  await page.waitForTimeout(200);
+  must(progressEvents.length===1,`${label}: completing one ten-question group creates one automatic summary event`);
+  const eventPreview=progressEvents[0]||{};
+  must(eventPreview.course==='Year 9 Agriculture'&&eventPreview.module===1&&eventPreview.section==='knowledge-check-1',`${label}: knowledge-check event identifies only the permitted course location`);
+  must(eventPreview.eventType==='knowledge-check-completed'&&Number.isInteger(eventPreview.progress)&&typeof eventPreview.timestamp==='string',`${label}: knowledge-check event contains its type, summary progress and timestamp`);
+  must(Object.keys(eventPreview).sort().join(',')==='course,eventId,eventType,module,pilot,progress,section,timestamp',`${label}: automatic event schema excludes identity, answers and browsing details`);
+  await page.locator('[name="module-complete"]').check(); await page.waitForTimeout(150);
+  must(progressEvents.some((event)=>event.eventType==='module-completed'&&event.progress===100),`${label}: existing module-completion checkbox creates one automatic completion event`);
   await page.screenshot({path:path.join(output,`${label}-progress-pilot.png`),fullPage:false});
-  await page.locator('[data-pilot-clear]').click();
-  must(await page.locator('[data-pilot-output]').inputValue()==='',`${label}: pilot preview can be cleared without changing course autosave`);
   await page.evaluate(()=>localStorage.clear());
 
   await page.goto(`${base}/teacher-progress-demo.html`,{waitUntil:'networkidle'});
@@ -73,6 +74,15 @@ async function viewportRun(label,viewport){
   await page.locator('textarea').first().fill('Folio autosave browser QA.'); await page.waitForTimeout(150); await page.reload({waitUntil:'networkidle'});
   must(await page.locator('textarea').first().inputValue()==='Folio autosave browser QA.',`${label}: folio autosave restores`); await page.evaluate(()=>localStorage.clear());
   await page.screenshot({path:path.join(output,`${label}-folio.png`),fullPage:false});
+
+  progressEvents.length=0;
+  await page.goto(`${base}/folio.html?progress-pilot=steve-test`,{waitUntil:'networkidle'});
+  await page.locator('[name="student-name"]').fill('Steve Cowell'); await page.locator('[name="student-class"]').fill('yr 9 Ag');
+  await page.locator('#folio-card-01 textarea[data-save]').first().fill('Persisted synthetic folio QA response.'); await page.waitForTimeout(1350);
+  must(progressEvents.length===1&&progressEvents[0].eventType==='folio-response-persisted',`${label}: persisted folio response creates one debounced automatic summary event`);
+  must(progressEvents[0]?.section==='folio-card-1'&&progressEvents[0]?.module===1,`${label}: folio event maps to its card and related module`);
+  must(!JSON.stringify(progressEvents[0]||{}).includes('Persisted synthetic folio QA response'),`${label}: folio response text is not transmitted`);
+  await page.evaluate(()=>localStorage.clear());
 
   const busyUrl='https://stevencowell.github.io/busy-worksheets/?library=agriculture-year-9';
   const busyRedirect=await page.request.get(`${base}/busy-work/index.html`); const busyRedirectHtml=await busyRedirect.text();

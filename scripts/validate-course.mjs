@@ -94,8 +94,10 @@ requireCheck(/localStorage/.test(read('guided/course.js')) && /indexedDB/.test(r
 requireCheck(/localStorage/.test(read('busy-work/busy.js')),'Busy Work autosaves on device');
 const progressPilot = read('guided/progress-pilot.js');
 requireCheck(/progress-pilot=steve-test/.test(read('source-notes/PROGRESS-TRACKER-PILOT.md')) && /steve-test/.test(progressPilot),'Progress pilot is available only through its deliberate test URL');
-requireCheck(!/(?:fetch\s*\(|XMLHttpRequest|sendBeacon|WebSocket)/.test(progressPilot),'Progress pilot has no network-send path');
-requireCheck(!/(?:localStorage|sessionStorage|indexedDB)/.test(progressPilot),'Progress pilot does not persist prepared events');
+requireCheck(/mode:\s*"no-cors"/.test(progressPilot) && /credentials:\s*"include"/.test(progressPilot),'Progress pilot uses the private credentialed background receiver path');
+requireCheck(/knowledge-check-completed/.test(progressPilot) && /folio-response-persisted/.test(progressPilot) && /module-completed/.test(progressPilot),'Progress pilot permits only the three approved meaningful event types');
+requireCheck(!/(?:studentName|studentClass|answer|responseText|screenshot|browsing)\s*:/.test(progressPilot),'Progress pilot payload code excludes identity, answers, screenshots and browsing fields');
+requireCheck(/progress-pilot\.js\?v=20260806b/.test(read('folio.html')),'Folio loads the gated automatic summary sender');
 requireCheck(/Static password deliberately not implemented/.test(read('teacher-progress-demo.html')),'Teacher dashboard shell states the static-password security boundary');
 requireCheck(!/teacher-progress-demo\.html/.test(read('module.html')),'Teacher dashboard is absent from student module navigation');
 

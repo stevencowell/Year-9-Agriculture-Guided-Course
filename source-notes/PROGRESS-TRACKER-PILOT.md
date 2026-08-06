@@ -1,33 +1,26 @@
 # Year 9 Agriculture progress-tracker pilot
 
-Status: Action required
+Status: Steve-only live integration test
 
-## Live pilot boundary
+## Live boundary
 
-- The ordinary student course experience is unchanged.
-- The test panel appears only when a module URL includes `progress-pilot=steve-test`.
-- Steve must explicitly confirm that only his deliberate test name and class are present before preparing an event.
-- The preview contains only name, class, course, module, section, percentage progress and timestamp.
-- The preview reads the existing summary percentage. It does not read or copy answers, screenshots, folio content or browsing activity.
-- There is no receiver URL and no network-send code. The event is not persisted by the pilot.
-- Existing course `localStorage` and folio `IndexedDB` behaviour is unchanged.
+- The sender runs only when a module or folio URL contains `progress-pilot=steve-test`.
+- It also requires the existing device-local fields to match `Steve Cowell` and `yr 9 Ag` exactly after normalisation.
+- There is no separate save or submit button.
+- Only three existing meaningful actions can create summary events:
+  - completion of all ten checked questions in one theory group;
+  - a locally persisted folio-card response or ready-state change, debounced and de-duplicated by card progress;
+  - the existing module-completion checkbox changing to checked.
+- The payload contains only course, module, section, progress percentage, timestamp, event type and a random event ID.
+- Names, class, answers, folio text, photos, screenshots, browsing activity and keystrokes are not transmitted.
+- The private receiver derives the test identity server-side as `Steve Cowell / yr 9 Ag`, accepts only the exact allow-listed school Google account and stores every accepted row as test-only.
+- Existing module `localStorage`, folio `localStorage` and photo `IndexedDB` behaviour remains unchanged.
+- Ordinary student URLs without the deliberate query parameter do not initialise the sender.
 
-Remove `guided/progress-pilot.js`, `guided/progress-pilot.css`, `teacher-progress-demo.html` and their two references in `module.html` to reverse the course pilot.
+## Reversal
 
-## Smallest genuine blocker
+Remove `guided/progress-pilot.js`, its references in `module.html` and `folio.html`, and the private receiver deployment update. Existing local course evidence remains intact.
 
-A real central tracker requires an authorised server-side storage and authentication path. No such configuration is available in this repository or task workspace.
+## Before any real-student pilot
 
-Minimum authorisation/configuration:
-
-1. nominate the school-approved service and data location;
-2. nominate the school owner for the application and records;
-3. approve the privacy notice, record purpose, retention and deletion schedule;
-4. configure school Google OAuth through an authorised administrator;
-5. configure server-side issuer/domain checks and an explicit teacher allow-list;
-6. enforce student-write and teacher-read access separately;
-7. expose an authenticated HTTPS event endpoint with validation, rate limiting and audit logs;
-8. provide development and production origins without placing secrets in GitHub Pages;
-9. complete a synthetic-data security test before any real student data is entered.
-
-The teacher dashboard should then be reached from the Industrial Arts Main Page, use one school Google sign-in, and present subject/course cards after authentication. A static password may be used only for a zero-data demonstration and is not an acceptable control for student records.
+School approval is still required for identity/consent, retention/deletion, authorised teachers, support responsibilities and the final authenticated student-write design. The Steve-only receiver must not be broadened as a shortcut.

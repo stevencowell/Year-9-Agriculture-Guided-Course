@@ -13,6 +13,9 @@
 .progress-pilot__actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .progress-pilot__output { width: 100%; min-height: 180px; margin-top: 14px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .86rem; }
 .progress-pilot__message { min-height: 1.6em; margin: 10px 0 0; font-weight: 800; }
+.progress-pilot__status[data-state="ready"] { border-left-color: var(--success); }
+.progress-pilot__status[data-state="pending"] { border-left-color: #b77700; }
+.progress-pilot__status[data-state="error"] { border-left-color: var(--danger); }
 
 .teacher-dashboard-shell { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 90px; }
 .teacher-dashboard-shell .card + .card { margin-top: 22px; }

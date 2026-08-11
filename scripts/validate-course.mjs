@@ -93,11 +93,11 @@ requireCheck(/youtube-nocookie\.com/.test(read('youtube-library/library.js')),'Y
 requireCheck(/localStorage/.test(read('guided/course.js')) && /indexedDB/.test(read('guided/course.js')),'Course evidence uses device-local text and durable image storage');
 requireCheck(/localStorage/.test(read('busy-work/busy.js')),'Busy Work autosaves on device');
 const progressPilot = read('guided/progress-pilot.js');
-requireCheck(!/progress-pilot=steve-test/.test(progressPilot) && /steveIdentityPresent/.test(progressPilot),'Normal course URLs use the Steve-only local convenience gate');
+requireCheck(/school-check:v2/.test(progressPilot) && !/steveIdentityPresent/.test(progressPilot),'Module 11 uses the Department identity-check pathway without a typed-identity gate');
 requireCheck(/mode:\s*"no-cors"/.test(progressPilot) && /credentials:\s*"include"/.test(progressPilot),'Progress pilot uses the private credentialed background receiver path');
-requireCheck(/theory-section-in-progress/.test(progressPilot) && /knowledge-check-completed/.test(progressPilot) && /folio-response-persisted/.test(progressPilot) && /module-completed/.test(progressPilot),'Progress pilot permits only the four approved meaningful event types');
-requireCheck(!/(?:studentName|studentClass|answer|responseText|screenshot|browsing)\s*:/.test(progressPilot),'Progress pilot payload code excludes identity, answers, screenshots and browsing fields');
-requireCheck(/progress-pilot\.js\?v=20260806d/.test(read('folio.html')),'Folio loads the Steve-only automatic summary sender');
+requireCheck(/knowledge-check-completed/.test(progressPilot) && /moduleNumber !== 11/.test(progressPilot) && /theoryIndex !== 1/.test(progressPilot),'Progress pilot permits only the Module 11 first knowledge-check completion event');
+requireCheck(!/(?:studentName|studentClass|studentCode|answers|responseText|screenshot|browsing)\s*:/.test(progressPilot),'Progress pilot payload code excludes identity, Student Code, answers, screenshots and browsing fields');
+requireCheck(/progress-pilot\.js\?v=20260811a/.test(read('module.html')) && !/progress-pilot\.js/.test(read('folio.html')),'Only guided modules load the controlled activity sender');
 requireCheck(/Static password deliberately not implemented/.test(read('teacher-progress-demo.html')),'Teacher dashboard shell states the static-password security boundary');
 requireCheck(!/teacher-progress-demo\.html/.test(read('module.html')),'Teacher dashboard is absent from student module navigation');
 

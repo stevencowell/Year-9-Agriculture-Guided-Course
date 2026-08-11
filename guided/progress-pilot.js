@@ -6,49 +6,58 @@
   if (!course || course.shortTitle !== "Year 9 Agriculture") return;
 
   const endpoint = "https://script.google.com/a/macros/education.nsw.gov.au/s/AKfycbwaQfMWd0kxB8dDXcG4JlUxphKSpQ-1qWurLqIAB6okVu_qZ_5zEyFGIDo9truAEHZqiQ/exec";
-  const pilot = "steve-only-year9ag-v1";
-  const sentKey = `${course.storagePrefix}:progress-pilot:sent:v1`;
-  const normalise = (value) => String(value || "").trim().replace(/\s+/g, " ").toLowerCase();
-  const loadSent = () => {
-    try { return JSON.parse(localStorage.getItem(sentKey) || "{}"); } catch (_) { return {}; }
-  };
-  const saveSent = (value) => localStorage.setItem(sentKey, JSON.stringify(value));
-  const eventId = () => `Y9AG-STEVE-${globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`}`;
+  const courseId = "Y9AG-2026";
+  const sourceVersion = "Y9AG-SPT-PILOT-20260811-V1";
+  const activityId = "module-11-knowledge-check-1";
+  const connectedKey = `${course.storagePrefix}:progress-pilot:school-check:v2`;
+  const pendingKey = `${course.storagePrefix}:progress-pilot:pending:v2`;
+  const eventId = () => `Y9AG-${globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`}`;
 
-  function steveIdentityPresent(root) {
-    const name = normalise(root.querySelector('[name="student-name"]')?.value);
-    const studentClass = normalise(root.querySelector('[name="student-class"]')?.value);
-    return name === "steve cowell" && studentClass === "yr 9 ag";
+  function loadPending() {
+    try { return JSON.parse(localStorage.getItem(pendingKey) || "null"); } catch (_) { return null; }
   }
 
-  function progressPercent(root) {
-    const required = [...new Set([...root.querySelectorAll("[data-required]")].map((field) => field.name))];
-    if (!required.length) return 0;
-    const complete = required.filter((name) => {
-      const fields = [...root.querySelectorAll(`[name="${CSS.escape(name)}"]`)];
-      return fields.some((field) => field.type === "radio" ? field.checked : String(field.value || "").trim());
-    }).length;
-    return Math.round((complete / required.length) * 100);
+  function savePending(value) {
+    localStorage.setItem(pendingKey, JSON.stringify(value));
   }
 
-  async function sendSummary(root, eventType, moduleNumber, section, progress) {
-    // This device-local match prevents ordinary students from attempting a write.
-    // The private receiver remains authoritative and verifies Steve's exact school Google account.
-    if (!steveIdentityPresent(root)) return;
-    const signature = [eventType, moduleNumber, section, eventType === "folio-response-persisted" ? progress : "once"].join(":");
-    const sent = loadSent();
-    if (sent[signature]) return;
-    const id = eventId();
-    const payload = {
-      course: course.shortTitle,
-      eventId: id,
-      eventType,
-      module: moduleNumber,
-      pilot,
-      progress,
-      section,
-      timestamp: new Date().toISOString()
-    };
+  function setStatus(message, state = "") {
+    const status = document.querySelector("[data-school-progress-status]");
+    if (!status) return;
+    status.textContent = message;
+    status.dataset.state = state;
+  }
+
+  function addIdentityPanel(root) {
+    const progressPanel = root.querySelector(".progress-panel");
+    if (!progressPanel || root.querySelector("[data-school-progress]")) return;
+    const panel = document.createElement("section");
+    panel.className = "card progress-pilot";
+    panel.dataset.schoolProgress = "";
+    panel.innerHTML = `
+      <p class="eyebrow">Controlled school progress pilot</p>
+      <h2>Connect your Department school account</h2>
+      <p>This one-activity pilot records only your verified school identity, the Module 11 knowledge-check score, the time and the course version. It does not send your answers, typed name, folio work, photos or Student Code.</p>
+      <div class="progress-pilot__actions">
+        <a class="btn" data-school-progress-connect target="_blank" rel="noopener" href="${endpoint}?mode=student-check">Open school identity check</a>
+      </div>
+      <p class="progress-pilot__status" data-school-progress-status aria-live="polite">Open the school identity check before completing Module 11 knowledge check 1.</p>`;
+    progressPanel.insertAdjacentElement("afterend", panel);
+    panel.querySelector("[data-school-progress-connect]").addEventListener("click", () => {
+      localStorage.setItem(connectedKey, new Date().toISOString());
+      setStatus("School identity check opened. The private tracker will still verify the signed-in Department account and roster when evidence is received.", "ready");
+    });
+    if (localStorage.getItem(connectedKey)) {
+      setStatus("School identity check has been opened on this device. Complete Module 11 knowledge check 1; the tracker will verify the account and roster server-side.", "ready");
+    }
+    const pending = loadPending();
+    if (pending) setStatus("Evidence is queued or awaiting teacher-side receipt confirmation. It will retry safely with the same event ID.", "pending");
+  }
+
+  async function transmit(payload) {
+    const pending = { payload, attemptedAt: new Date().toISOString() };
+    savePending(pending);
+    setStatus("Sending minimal evidence to the private school tracker…", "pending");
     try {
       await fetch(endpoint, {
         method: "POST",
@@ -58,71 +67,54 @@
         headers: { "Content-Type": "text/plain;charset=UTF-8" },
         body: JSON.stringify(payload)
       });
-      sent[signature] = id;
-      saveSent(sent);
+      savePending({ payload, attemptedAt: new Date().toISOString() });
+      setStatus("Evidence sent for school-side verification. Your teacher dashboard confirms whether it was received; this page does not claim success without that check.", "pending");
     } catch (_) {
-      // Keep the existing local course experience intact; a failed private receiver write is retried on a later action.
+      setStatus("Evidence remains queued on this device and will retry. Tell your teacher if the dashboard does not show a fresh receipt.", "error");
     }
+  }
+
+  function retryPending() {
+    const pending = loadPending();
+    if (!pending?.payload || !localStorage.getItem(connectedKey)) return;
+    const lastAttempt = new Date(pending.attemptedAt || 0).getTime();
+    if (Date.now() - lastAttempt >= 5 * 60 * 1000) void transmit(pending.payload);
   }
 
   function bindModule() {
     const root = document.querySelector("[data-module-host]");
     if (!root) return;
     const moduleNumber = Math.max(1, Math.min(19, Number(params.get("module")) || 1));
+    if (moduleNumber !== 11) return;
+    addIdentityPanel(root);
+    retryPending();
 
     root.addEventListener("click", (event) => {
       const button = event.target.closest("[data-check-button]");
-      if (!button) return;
+      if (!button || !localStorage.getItem(connectedKey)) return;
       const group = button.closest(".check-group");
       if (!group) return;
-      const currentCheck = button.closest(".check");
-      const hasCheckedResponse = Boolean(currentCheck?.querySelector('input[type="radio"]:checked'))
-        && Boolean(currentCheck?.querySelector(".feedback")?.textContent.trim());
-      if (!hasCheckedResponse) return;
+      const theoryIndex = Number(group.id.split("-").pop()) + 1;
+      if (theoryIndex !== 1) return;
       const checks = [...group.querySelectorAll(".check")];
       const completed = checks.length === 10 && checks.every((check) =>
         Boolean(check.querySelector('input[type="radio"]:checked')) && Boolean(check.querySelector(".feedback")?.textContent.trim())
       );
-      const theoryIndex = Number(group.id.split("-").pop()) + 1;
-      const section = `knowledge-check-${theoryIndex}`;
-      if (completed) void sendSummary(root, "knowledge-check-completed", moduleNumber, section, progressPercent(root));
-      else void sendSummary(root, "theory-section-in-progress", moduleNumber, section, progressPercent(root));
+      if (!completed || loadPending()) return;
+      const score = checks.filter((check) => check.querySelector(".feedback.good")).length;
+      void transmit({
+        activityId,
+        courseId,
+        eventId: eventId(),
+        eventType: "knowledge-check-completed",
+        module: 11,
+        possible: 10,
+        score,
+        sourceVersion,
+        timestamp: new Date().toISOString()
+      });
     });
-
-    root.querySelector('[name="module-complete"]')?.addEventListener("change", (event) => {
-      if (event.target.checked) void sendSummary(root, "module-completed", moduleNumber, "module-completed", 100);
-    });
-
-    const restoredGroup = [...root.querySelectorAll(".check-group")].find((group) =>
-      Boolean(group.querySelector('input[type="radio"]:checked'))
-    );
-    if (restoredGroup) {
-      const theoryIndex = Number(restoredGroup.id.split("-").pop()) + 1;
-      void sendSummary(root, "theory-section-in-progress", moduleNumber, `knowledge-check-${theoryIndex}`, progressPercent(root));
-    }
-  }
-
-  function bindFolio() {
-    const root = document.querySelector("[data-folio]");
-    if (!root) return;
-    const timers = new WeakMap();
-    const schedule = (field) => {
-      const card = field.closest(".folio-card");
-      if (!card) return;
-      clearTimeout(timers.get(card));
-      timers.set(card, setTimeout(() => {
-        const hasPersistedResponse = [...card.querySelectorAll('textarea[data-save]')].some((item) => String(item.value || "").trim())
-          || Boolean(card.querySelector('input[type="checkbox"][data-save]:checked'));
-        if (!hasPersistedResponse) return;
-        const cardNumber = Number(card.id.replace("folio-card-", ""));
-        const moduleNumber = Math.max(1, Math.min(19, Number(card.dataset.module) || 1));
-        void sendSummary(root, "folio-response-persisted", moduleNumber, `folio-card-${cardNumber}`, progressPercent(card));
-      }, 1200));
-    };
-    root.addEventListener("input", (event) => { if (event.target.matches("[data-save]")) schedule(event.target); });
-    root.addEventListener("change", (event) => { if (event.target.matches("[data-save]")) schedule(event.target); });
   }
 
   bindModule();
-  bindFolio();
 })();

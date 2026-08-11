@@ -19,50 +19,41 @@ await page.route('https://script.google.com/**', async (route) => {
   await route.fulfill({ status: 204, body: '' });
 });
 
-await page.goto(`${base}/module.html?module=1`, { waitUntil: 'networkidle' });
-await page.locator('[name="student-name"]').fill('Synthetic Student');
-await page.locator('[name="student-class"]').fill('yr 9 Ag');
-await page.locator('[name="module-complete"]').check();
-await page.waitForTimeout(150);
-must(events.length === 0, 'Non-Steve local identity sends no progress event');
-await page.evaluate(() => localStorage.clear());
+await page.goto(`${base}/module.html?module=11`, { waitUntil: 'networkidle' });
+must(await page.locator('[data-school-progress]').count() === 1, 'Module 11 shows the controlled school-identity panel');
+const groupWithoutConnection = page.locator('.check-group').first();
+for (let index = 0; index < 10; index += 1) {
+  const check = groupWithoutConnection.locator('.check').nth(index);
+  await check.getByRole('radio').first().check();
+  await check.getByRole('button', { name: 'Check answer' }).click();
+}
+await page.waitForTimeout(120);
+must(events.length === 0, 'No event is attempted before the student opens the school identity check');
 
-await page.goto(`${base}/module.html?module=1`, { waitUntil: 'networkidle' });
-await page.locator('[name="student-name"]').fill('Steve Cowell');
-await page.locator('[name="student-class"]').fill('yr 9 Ag');
-await page.locator('.check-group').first().locator('.check').first().getByRole('radio').first().check();
+await page.evaluate(() => {
+  localStorage.clear();
+  localStorage.setItem('year-9-agriculture:progress-pilot:school-check:v2', new Date().toISOString());
+});
 await page.reload({ waitUntil: 'networkidle' });
-await page.waitForTimeout(250);
-must(events.length === 1, 'Restored first knowledge-check response sends one in-progress event');
-const inProgress = events[0] || {};
-must(inProgress.eventType === 'theory-section-in-progress' && inProgress.section === 'knowledge-check-1' && inProgress.progress > 0 && inProgress.progress < 100, 'In-progress event is truthful and below completion');
-must(Object.keys(inProgress).sort().join(',') === 'course,eventId,eventType,module,pilot,progress,section,timestamp', 'In-progress event contains only the minimal schema');
 const group = page.locator('.check-group').first();
 for (let index = 0; index < 10; index += 1) {
   const check = group.locator('.check').nth(index);
   await check.getByRole('radio').first().check();
   await check.getByRole('button', { name: 'Check answer' }).click();
 }
-await page.waitForTimeout(250);
-must(events.length === 2, 'Completed ten-question group sends a distinct completion event');
-const knowledge = events.find((event) => event.eventType === 'knowledge-check-completed') || {};
-must(knowledge.eventType === 'knowledge-check-completed' && knowledge.section === 'knowledge-check-1', 'Knowledge event uses the permitted type and section');
-must(Object.keys(knowledge).sort().join(',') === 'course,eventId,eventType,module,pilot,progress,section,timestamp', 'Knowledge event contains only the minimal schema');
-await page.locator('[name="module-complete"]').check();
-await page.waitForTimeout(150);
-must(events.some((event) => event.eventType === 'module-completed' && event.progress === 100), 'Module-completion checkbox sends one 100% event');
-await page.evaluate(() => localStorage.clear());
+await page.waitForTimeout(200);
+must(events.length === 1, 'One completed Module 11 knowledge-check event is attempted');
+const event = events[0] || {};
+must(event.courseId === 'Y9AG-2026' && event.activityId === 'module-11-knowledge-check-1', 'Event is bound to the exact course activity');
+must(event.eventType === 'knowledge-check-completed' && event.module === 11, 'Event type and module match the controlled pilot');
+must(event.possible === 10 && Number.isInteger(event.score) && event.score >= 0 && event.score <= 10, 'Event contains a bounded score out of ten');
+must(Object.keys(event).sort().join(',') === 'activityId,courseId,eventId,eventType,module,possible,score,sourceVersion,timestamp', 'Event contains only the minimal schema');
+must(!JSON.stringify(event).match(/student|surname|class|code|answer/i), 'Event contains no client-provided identity, Student Code or answers');
+const statusText = await page.locator('[data-school-progress-status]').textContent();
+must(!/(confirmed received|saved successfully|receipt confirmed)/i.test(statusText || ''), 'Student page does not falsely claim confirmed receipt');
 
-events.length = 0;
-await page.goto(`${base}/folio.html`, { waitUntil: 'networkidle' });
-await page.locator('[name="student-name"]').fill('Steve Cowell');
-await page.locator('[name="student-class"]').fill('yr 9 Ag');
-await page.locator('#folio-card-01 textarea[data-save]').first().fill('Synthetic folio QA text that must not leave the browser.');
-await page.waitForTimeout(1400);
-must(events.length === 1, 'Persisted folio response sends one debounced event');
-const folio = events[0] || {};
-must(folio.eventType === 'folio-response-persisted' && folio.section === 'folio-card-1' && folio.module === 1, 'Folio event maps to the permitted card and module');
-must(!JSON.stringify(folio).includes('Synthetic folio QA text'), 'Folio response text is absent from the event');
+await page.goto(`${base}/module.html?module=12`, { waitUntil: 'networkidle' });
+must(await page.locator('[data-school-progress]').count() === 0, 'Other modules do not expose the one-activity pilot sender');
 must(browserErrors.length === 0, `No browser errors: ${browserErrors.join(' | ')}`);
 
 await browser.close();
@@ -70,4 +61,4 @@ if (failures.length) {
   console.error(JSON.stringify({ passed: false, checks: checks.length, failures, events, browserErrors }, null, 2));
   process.exit(1);
 }
-console.log(JSON.stringify({ passed: true, checks: checks.length, capturedEvents: 4 }, null, 2));
+console.log(JSON.stringify({ passed: true, checks: checks.length, capturedEvents: events.length }, null, 2));

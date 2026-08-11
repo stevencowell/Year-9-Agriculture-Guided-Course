@@ -5,6 +5,7 @@
 }
 
 .progress-pilot[hidden] { display: none; }
+.progress-pilot .eyebrow { color: var(--steel-dark); }
 .progress-pilot h2 { margin-bottom: 8px; font-size: clamp(1.35rem, 3vw, 1.8rem); }
 .progress-pilot p { max-width: 74ch; }
 .progress-pilot__status { margin: 14px 0; padding: 12px 14px; border-left: 4px solid var(--danger); background: white; }
@@ -31,4 +32,8 @@
 
 @media (max-width: 720px) {
   .dashboard-course-grid { grid-template-columns: 1fr; }
+}
+
+@media print {
+  .progress-pilot { display: none !important; }
 }

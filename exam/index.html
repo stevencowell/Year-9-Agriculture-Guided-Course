@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Password-controlled Year 9 Agriculture Topic Test">
+  <title>Year 9 Agriculture | Topic Test</title>
+  <link rel="stylesheet" href="exam.css?v=20260812">
+  <style>#pdfFilename{overflow-wrap:anywhere}</style>
+</head>
+<body>
+  <div class="password-gate" id="passwordGate">
+    <form class="gate-card" id="gateForm">
+      <p class="kicker">Teacher-controlled access</p>
+      <h1>Unlock topic test</h1>
+      <p>Enter the password supplied by your teacher. This is classroom access control, not strong security. Responses save only in this browser on this device.</p>
+      <label for="gatePassword"><strong>Test password</strong></label>
+      <input id="gatePassword" type="password" inputmode="numeric" autocomplete="off" required>
+      <button class="btn" type="submit">Open test</button>
+      <p class="gate-error" id="gateError" role="alert"></p>
+    </form>
+  </div>
+  <div id="examPage" hidden>
+    <header><div class="shell"><p><a id="backLink" href="../assessment.html">Back to assessment</a></p><p class="kicker" id="courseName"></p><h1 id="examTitle"></h1><p id="examSubtitle"></p></div></header>
+    <main class="shell">
+      <section class="card"><h2>Test information</h2><div class="notice-grid">
+        <div><span>Course stage</span><strong id="metaStage"></strong></div><div><span>Recommended time</span><strong id="metaTime"></strong></div>
+        <div><span>Total marks</span><strong id="metaMarks"></strong></div><div><span>Assessment status</span><strong id="metaStatus"></strong></div>
+        <div><span>Task</span><strong id="metaTask"></strong></div><div><span>Scheduled timing</span><strong id="metaDate"></strong></div>
+        <div class="wide"><span>Assessed outcomes</span><strong id="metaOutcomes"></strong></div></div>
+        <p class="note" id="examDirections"></p><p><strong>Keep a copy:</strong> use <em>Print / Save PDF</em> and name the file <strong id="pdfFilename"></strong>. Your teacher will confirm whether and where a PDF must be submitted.</p>
+      </section>
+      <form id="examForm" novalidate>
+        <section class="card"><h2>Student details</h2><div class="student-grid"><label>Student name<input data-student id="studentName" name="studentName" autocomplete="name"></label><label>Class<input data-student name="studentClass" autocomplete="off"></label><label>Teacher<input data-student name="teacherName" autocomplete="off"></label><label>Date completed<input data-student name="completedDate" type="date"></label></div></section>
+        <div class="toolbar screen-only"><div class="progress"><div class="track"><div id="progressFill"></div></div><span id="progressLabel"></span></div><button class="btn secondary" id="saveBtn" type="button">Save now</button><button class="btn" id="printBtn" type="button">Print / Save PDF</button><button class="btn secondary" id="lockBtn" type="button">Lock test</button><button class="btn danger" id="clearBtn" type="button">Clear saved work</button><div id="saveStatus">Responses autosave on this device.</div></div>
+        <div id="examSections"></div>
+      </form>
+      <p class="footer">Browser autosave is device-local practice, not cloud submission. No marking guide is stored on this student page.</p>
+    </main>
+  </div>
+  <script src="config.js?v=20260812"></script><script src="exam.js?v=20260812"></script>
+</body>
+</html>

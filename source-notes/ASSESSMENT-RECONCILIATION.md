@@ -26,3 +26,12 @@ The website does not choose or repair these conflicts. It displays `Teacher to c
 - Google Classroom fields contain `INSERT CODE` placeholders.
 
 No answer keys are published. Student website evidence does not replace the formal test, report/project or directly observed practical judgement.
+
+## Current handbook timing check and digital test
+
+- The current cohort handbook lists Agriculture Task 1 in Term 1 Week 9; the course task paper lists Term 1 Week 10. The student site shows both and leaves the exact session `Teacher to confirm`.
+- Student route: `exam/index.html`.
+- Access password: teacher-confirmed `8142`; static client-side gating is ordinary classroom access control, not strong security.
+- Format: 15 multiple-choice items, 5 true/false items and 10 written-response items; 50 marks total.
+- Behaviour: unique browser-local autosave, reload restoration, progress, relock, student details and Print / Save PDF.
+- Source boundary: task metadata and structure come from the current handbook, 2026 Task 1 paper and Modules 1–5. Image-dependent source questions were replaced with text-based questions drawn from the same authorised course learning. No public answer key or automatic marking is included.

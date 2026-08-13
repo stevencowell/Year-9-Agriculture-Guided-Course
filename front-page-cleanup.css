@@ -1,0 +1,14 @@
+/* The course navigation carries the supporting destinations; the entry page keeps orientation and the real module path. */
+.hero-showcase figcaption,
+.landing-main > .section:first-child,
+.landing-main > .section.tint:not(#outcomes),
+#outcomes {
+  display: none !important;
+}
+
+#pathway .module-link {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: inherit !important;
+  box-shadow: none !important;
+}

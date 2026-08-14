@@ -3,7 +3,7 @@
 
   const HUB_URL = "https://stevencowell.github.io/Main-Page/";
   const script = document.currentScript;
-  const stylesheetUrl = script ? new URL("sister-site.css", script.src).href : "";
+  const stylesheetUrl = script ? new URL("sister-site.css?v=20260814-agriculture-1", script.src).href : "";
   const courseRoot = script ? new URL("../", script.src) : new URL("./", location.href);
 
   if (stylesheetUrl && !document.querySelector('link[data-sister-site-styles]')) {

@@ -1,5 +1,6 @@
 /* The course navigation carries the supporting destinations; the entry page keeps orientation and the real module path. */
 .hero-showcase figcaption,
+.infographic-open-label,
 .landing-main > .section:first-child,
 .landing-main > .section.tint:not(#outcomes),
 #outcomes {

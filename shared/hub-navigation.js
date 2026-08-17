@@ -37,7 +37,7 @@
     { label: "Course", href: "index.html", current: isCourseHome },
     { label: "Modules", href: "index.html#pathway", current: path.endsWith("/module.html") },
     { label: "Video learning", href: "youtube-library/", current: path.includes("/youtube-library/") },
-    { label: "Busy Work", href: "busy-work/", current: path.includes("/busy-work/") },
+    { label: "Puzzles", href: "busy-work/", current: path.includes("/busy-work/") },
     { label: "My folio", href: "folio.html", current: path.endsWith("/folio.html") },
     { label: "Plans", href: "plans.html", current: path.endsWith("/plans.html") },
     { label: "Assessment", href: "assessment.html", current: path.endsWith("/assessment.html") },

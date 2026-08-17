@@ -1,0 +1,4425 @@
+{
+  "schema_version": "1.1",
+  "program_id": "year-9-agriculture-program",
+  "version": "1.0",
+  "course": {
+    "title": "Year 9 Agriculture",
+    "classification": "Stage 5 Agricultural Technology elective",
+    "stage_or_year": "Stage 5",
+    "delivery_year": 2026,
+    "project": "Year 9 Agriculture"
+  },
+  "site": {
+    "name": "Year 9 Agriculture",
+    "reference": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-17\\ca\\work\\program-batch\\repos\\Year-9-Agriculture-Guided-Course",
+    "inspection_date": "2026-08-17",
+    "state": "repository"
+  },
+  "syllabus": {
+    "title": "Agricultural Technology 7–10 Syllabus (2019)",
+    "version": "2019",
+    "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019",
+    "verified_date": "2026-08-17",
+    "mandatory_from": "2019",
+    "early_implementation": "not-applicable",
+    "steve_decision": "use-current",
+    "implementation_status": "current"
+  },
+  "timetable": {
+    "weeks": 38,
+    "period_minutes": 60,
+    "periods_per_fortnight": 5,
+    "total_periods": 95,
+    "status": "Provisional — Teacher to confirm"
+  },
+  "outcomes": [
+    {
+      "code": "AG5-1",
+      "statement": "explains why identified plant species and animal breeds have been used in agricultural enterprises and developed for the Australian environment and/or markets",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-10",
+      "statement": "implements and justifies the application of animal welfare guidelines to agricultural practices",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-11",
+      "statement": "designs, undertakes, analyses and evaluates experiments and investigates problems in agricultural contexts",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-12",
+      "statement": "collects and analyses agricultural data and communicates results using a range of technologies",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-13",
+      "statement": "applies Work Health and Safety requirements when using, maintaining and storing chemicals, tools and agricultural machinery",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-14",
+      "statement": "demonstrates plant and/or animal management practices safely and in collaboration with others",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-2",
+      "statement": "explains the interactions within and between agricultural enterprises and systems",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-3",
+      "statement": "explains the interactions within and between the agricultural sector and Australia's economy, culture and society",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-4",
+      "statement": "investigates and implements responsible production systems for plant and animal enterprises",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-5",
+      "statement": "investigates and applies responsible marketing principles and processes",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-6",
+      "statement": "explains and evaluates the impact of management decisions on plant production enterprises",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-7",
+      "statement": "explains and evaluates the impact of management decisions on animal production enterprises",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-8",
+      "statement": "evaluates the impact of past and current agricultural practices on agricultural sustainability",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    },
+    {
+      "code": "AG5-9",
+      "statement": "evaluates management practices in terms of profitability, technology, sustainability, social issues and ethics",
+      "source_id": "SYL-01",
+      "official_url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019"
+    }
+  ],
+  "source_register": [
+    {
+      "id": "SYL-01",
+      "title": "Agricultural Technology 7–10 Syllabus (2019)",
+      "authority": "official-syllabus",
+      "location": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/tas/agricultural-technology-7-10-2019",
+      "revision": "Verified 2026-08-17",
+      "use": "Framework, outcomes and content descriptors"
+    },
+    {
+      "id": "SITE-01",
+      "title": "Year 9 Agriculture guided-course website",
+      "authority": "website",
+      "location": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-17\\ca\\work\\program-batch\\repos\\Year-9-Agriculture-Guided-Course",
+      "revision": "Inspected 2026-08-17",
+      "use": "Named modules, theory sections, checks, responses and evidence routes"
+    }
+  ],
+  "website_learning_inventory": [
+    {
+      "id": "M01-S01",
+      "route": "module.html?module=1#theory-1-1",
+      "theory_section": "Farm WHS: hazards, controls and shared responsibility",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M01-S02",
+      "route": "module.html?module=1#theory-1-2",
+      "theory_section": "Classifying plants and animals by agricultural purpose",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M01-S03",
+      "route": "module.html?module=1#theory-1-3",
+      "theory_section": "Using safe observations to identify farm enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S01",
+      "route": "module.html?module=2#theory-2-1",
+      "theory_section": "Climate factors that influence agricultural production",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S02",
+      "route": "module.html?module=2#theory-2-2",
+      "theory_section": "Reading and communicating agricultural climate data",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S03",
+      "route": "module.html?module=2#theory-2-3",
+      "theory_section": "Cultural knowledge and Australian agriculture",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S01",
+      "route": "module.html?module=3#theory-3-1",
+      "theory_section": "Inputs, outputs and connections in agricultural enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S02",
+      "route": "module.html?module=3#theory-3-2",
+      "theory_section": "Commodity chains from production to market",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S03",
+      "route": "module.html?module=3#theory-3-3",
+      "theory_section": "Agricultural careers and changing technologies",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S01",
+      "route": "module.html?module=4#theory-4-1",
+      "theory_section": "Management decisions in plant and animal enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S02",
+      "route": "module.html?module=4#theory-4-2",
+      "theory_section": "Intensive and extensive production systems",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S03",
+      "route": "module.html?module=4#theory-4-3",
+      "theory_section": "Evaluating a production system using evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S01",
+      "route": "module.html?module=5#theory-5-1",
+      "theory_section": "Investigating an agricultural problem",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        20
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S02",
+      "route": "module.html?module=5#theory-5-2",
+      "theory_section": "Reading agricultural chemical labels safely",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        20
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S03",
+      "route": "module.html?module=5#theory-5-3",
+      "theory_section": "Risk controls and evidence-based decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        20
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S01",
+      "route": "module.html?module=6#theory-6-1",
+      "theory_section": "Vegetable production as a managed enterprise",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S02",
+      "route": "module.html?module=6#theory-6-2",
+      "theory_section": "Plant structures and their functions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S03",
+      "route": "module.html?module=6#theory-6-3",
+      "theory_section": "Linking plant form to vegetable production decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S01",
+      "route": "module.html?module=7#theory-7-1",
+      "theory_section": "Water uptake and transport in plants",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        29
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S02",
+      "route": "module.html?module=7#theory-7-2",
+      "theory_section": "Flower structures and reproductive functions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        29
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S03",
+      "route": "module.html?module=7#theory-7-3",
+      "theory_section": "Using investigations to explain plant processes",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        29
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S01",
+      "route": "module.html?module=8#theory-8-1",
+      "theory_section": "Soil as a living production resource",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S02",
+      "route": "module.html?module=8#theory-8-2",
+      "theory_section": "Soil texture, structure and plant growth",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S03",
+      "route": "module.html?module=8#theory-8-3",
+      "theory_section": "Collecting and interpreting soil evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S01",
+      "route": "module.html?module=9#theory-9-1",
+      "theory_section": "Understanding soil pH",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        38
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S02",
+      "route": "module.html?module=9#theory-9-2",
+      "theory_section": "Managing soil condition responsibly",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        38
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S03",
+      "route": "module.html?module=9#theory-9-3",
+      "theory_section": "Choosing a soil strategy from evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        38
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S01",
+      "route": "module.html?module=10#theory-10-1",
+      "theory_section": "Drought as an agricultural production challenge",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        42
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S02",
+      "route": "module.html?module=10#theory-10-2",
+      "theory_section": "Planning vegetable production under water constraints",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        42
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S03",
+      "route": "module.html?module=10#theory-10-3",
+      "theory_section": "Respectful learning from Indigenous agricultural knowledge",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        42
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S01",
+      "route": "module.html?module=11#theory-11-1",
+      "theory_section": "The beef enterprise as a production system",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        47
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S02",
+      "route": "module.html?module=11#theory-11-2",
+      "theory_section": "Reading cattle-yard features for safety",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        47
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S03",
+      "route": "module.html?module=11#theory-11-3",
+      "theory_section": "Hazard reporting in cattle facilities",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        47
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M12-S01",
+      "route": "module.html?module=12#theory-12-1",
+      "theory_section": "Comparing cattle breed groups and suitability",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        51
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M12-S02",
+      "route": "module.html?module=12#theory-12-2",
+      "theory_section": "How the ruminant digestive system works",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        51
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M12-S03",
+      "route": "module.html?module=12#theory-12-3",
+      "theory_section": "Matching cattle, environment and feeding decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        51
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M13-S01",
+      "route": "module.html?module=13#theory-13-1",
+      "theory_section": "Planning cattle husbandry operations",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        56
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M13-S02",
+      "route": "module.html?module=13#theory-13-2",
+      "theory_section": "Animal welfare and ethical decision-making",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        56
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M13-S03",
+      "route": "module.html?module=13#theory-13-3",
+      "theory_section": "Using observations without replacing teacher assessment",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        56
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M14-S01",
+      "route": "module.html?module=14#theory-14-1",
+      "theory_section": "Traceability in cattle enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        60
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M14-S02",
+      "route": "module.html?module=14#theory-14-2",
+      "theory_section": "Understanding beef market specifications",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        60
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M14-S03",
+      "route": "module.html?module=14#theory-14-3",
+      "theory_section": "Communicating a source-backed market pathway",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        60
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M15-S01",
+      "route": "module.html?module=15#theory-15-1",
+      "theory_section": "Revenue, costs and profitability in beef enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        65
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M15-S02",
+      "route": "module.html?module=15#theory-15-2",
+      "theory_section": "Evaluating management decisions with multiple criteria",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        66
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M15-S03",
+      "route": "module.html?module=15#theory-15-3",
+      "theory_section": "Beef careers and enterprise communication",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        67
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M16-S01",
+      "route": "module.html?module=16#theory-16-1",
+      "theory_section": "Poultry enterprises, breeds and external anatomy",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        71
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M16-S02",
+      "route": "module.html?module=16#theory-16-2",
+      "theory_section": "The chicken digestive system",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        72
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M16-S03",
+      "route": "module.html?module=16#theory-16-3",
+      "theory_section": "Using anatomical evidence accurately",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        73
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M17-S01",
+      "route": "module.html?module=17#theory-17-1",
+      "theory_section": "Nutrients and poultry life stages",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        78
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M17-S02",
+      "route": "module.html?module=17#theory-17-2",
+      "theory_section": "Hen reproductive anatomy and egg formation",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        79
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M17-S03",
+      "route": "module.html?module=17#theory-17-3",
+      "theory_section": "Evaluating claims about poultry feed and production",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        80
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M18-S01",
+      "route": "module.html?module=18#theory-18-1",
+      "theory_section": "Embryonic development and incubation evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        84
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M18-S02",
+      "route": "module.html?module=18#theory-18-2",
+      "theory_section": "Biosecurity pathways in poultry systems",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        85
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M18-S03",
+      "route": "module.html?module=18#theory-18-3",
+      "theory_section": "Recording responsible poultry management",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        86
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M19-S01",
+      "route": "module.html?module=19#theory-19-1",
+      "theory_section": "Comparing broiler and layer enterprises",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        91
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M19-S02",
+      "route": "module.html?module=19#theory-19-2",
+      "theory_section": "Gross margins as an enterprise tool",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        92
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M19-S03",
+      "route": "module.html?module=19#theory-19-3",
+      "theory_section": "Poultry health observations and final evaluation",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        93
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    }
+  ],
+  "periods": [
+    {
+      "type": "Site/theory",
+      "focus": "Module 1: Farm WHS: hazards, controls and shared responsibility; Classifying plants and animals by agricultural purpose; Using safe observations to identify farm enterprises",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M01-S01, M01-S02, M01-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-13",
+        "AG5-14",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=1#theory-1-1",
+        "module.html?module=1#theory-1-2",
+        "module.html?module=1#theory-1-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M01-S01",
+        "M01-S02",
+        "M01-S03"
+      ],
+      "number": 1
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 1: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-13",
+        "AG5-14",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 2
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-13",
+        "AG5-14",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 3
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-13",
+        "AG5-14",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 4
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-13",
+        "AG5-14",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 5
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 2: Climate factors that influence agricultural production; Reading and communicating agricultural climate data; Cultural knowledge and Australian agriculture",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M02-S01, M02-S02, M02-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-12",
+        "AG5-3",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=2#theory-2-1",
+        "module.html?module=2#theory-2-2",
+        "module.html?module=2#theory-2-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M02-S01",
+        "M02-S02",
+        "M02-S03"
+      ],
+      "number": 6
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 2: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-12",
+        "AG5-3",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 7
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 2: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-12",
+        "AG5-3",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 8
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 2: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-12",
+        "AG5-3",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 9
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 2: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-12",
+        "AG5-3",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 10
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 3: Inputs, outputs and connections in agricultural enterprises; Commodity chains from production to market; Agricultural careers and changing technologies",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M03-S01, M03-S02, M03-S03.",
+      "syllabus_content": [
+        "Investigate agricultural markets, profitability, technology and relationships with economy and society."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-2",
+        "AG5-3",
+        "AG5-5"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=3#theory-3-1",
+        "module.html?module=3#theory-3-2",
+        "module.html?module=3#theory-3-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M03-S01",
+        "M03-S02",
+        "M03-S03"
+      ],
+      "number": 11
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-2",
+        "AG5-3",
+        "AG5-5"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 12
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-2",
+        "AG5-3",
+        "AG5-5"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 13
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-2",
+        "AG5-3",
+        "AG5-5"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 14
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 4: Management decisions in plant and animal enterprises; Intensive and extensive production systems; Evaluating a production system using evidence",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M04-S01, M04-S02, M04-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-2",
+        "AG5-6",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=4#theory-4-1",
+        "module.html?module=4#theory-4-2",
+        "module.html?module=4#theory-4-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M04-S01",
+        "M04-S02",
+        "M04-S03"
+      ],
+      "number": 15
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 4: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-2",
+        "AG5-6",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 16
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 4: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-2",
+        "AG5-6",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 17
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 4: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-2",
+        "AG5-6",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 18
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 4: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-2",
+        "AG5-6",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 19
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 5: Investigating an agricultural problem; Reading agricultural chemical labels safely; Risk controls and evidence-based decisions",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M05-S01, M05-S02, M05-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-13",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=5#theory-5-1",
+        "module.html?module=5#theory-5-2",
+        "module.html?module=5#theory-5-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M05-S01",
+        "M05-S02",
+        "M05-S03"
+      ],
+      "number": 20
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-13",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 21
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-13",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 22
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-13",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 23
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 6: Vegetable production as a managed enterprise; Plant structures and their functions; Linking plant form to vegetable production decisions",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M06-S01, M06-S02, M06-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=6#theory-6-1",
+        "module.html?module=6#theory-6-2",
+        "module.html?module=6#theory-6-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ],
+      "number": 24
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 6: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 25
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 6: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 26
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 6: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 27
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 6: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 28
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 7: Water uptake and transport in plants; Flower structures and reproductive functions; Using investigations to explain plant processes",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M07-S01, M07-S02, M07-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-11",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=7#theory-7-1",
+        "module.html?module=7#theory-7-2",
+        "module.html?module=7#theory-7-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M07-S01",
+        "M07-S02",
+        "M07-S03"
+      ],
+      "number": 29
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-11",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 30
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-11",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 31
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-11",
+        "AG5-4",
+        "AG5-6"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 32
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 8: Soil as a living production resource; Soil texture, structure and plant growth; Collecting and interpreting soil evidence",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M08-S01, M08-S02, M08-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-4",
+        "AG5-6",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=8#theory-8-1",
+        "module.html?module=8#theory-8-2",
+        "module.html?module=8#theory-8-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M08-S01",
+        "M08-S02",
+        "M08-S03"
+      ],
+      "number": 33
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 8: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-4",
+        "AG5-6",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 34
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 8: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-4",
+        "AG5-6",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 35
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 8: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-4",
+        "AG5-6",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 36
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 8: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-4",
+        "AG5-6",
+        "AG5-8"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 37
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 9: Understanding soil pH; Managing soil condition responsibly; Choosing a soil strategy from evidence",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M09-S01, M09-S02, M09-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=9#theory-9-1",
+        "module.html?module=9#theory-9-2",
+        "module.html?module=9#theory-9-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M09-S01",
+        "M09-S02",
+        "M09-S03"
+      ],
+      "number": 38
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 39
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 40
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-11",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 41
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 10: Drought as an agricultural production challenge; Planning vegetable production under water constraints; Respectful learning from Indigenous agricultural knowledge",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M10-S01, M10-S02, M10-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-3",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=10#theory-10-1",
+        "module.html?module=10#theory-10-2",
+        "module.html?module=10#theory-10-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M10-S01",
+        "M10-S02",
+        "M10-S03"
+      ],
+      "number": 42
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 10: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-3",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 43
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 10: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-3",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 44
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 10: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-3",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 45
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 10: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-3",
+        "AG5-6",
+        "AG5-8",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 46
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 11: The beef enterprise as a production system; Reading cattle-yard features for safety; Hazard reporting in cattle facilities",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M11-S01, M11-S02, M11-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-5",
+        "AG5-7"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=11#theory-11-1",
+        "module.html?module=11#theory-11-2",
+        "module.html?module=11#theory-11-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M11-S01",
+        "M11-S02",
+        "M11-S03"
+      ],
+      "number": 47
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 11: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-5",
+        "AG5-7"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 48
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 11: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-5",
+        "AG5-7"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 49
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 11: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-5",
+        "AG5-7"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 50
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 12: Comparing cattle breed groups and suitability; How the ruminant digestive system works; Matching cattle, environment and feeding decisions",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M12-S01, M12-S02, M12-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=12#theory-12-1",
+        "module.html?module=12#theory-12-2",
+        "module.html?module=12#theory-12-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M12-S01",
+        "M12-S02",
+        "M12-S03"
+      ],
+      "number": 51
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 12: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 52
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 12: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 53
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 12: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 54
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 12: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 55
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 13: Planning cattle husbandry operations; Animal welfare and ethical decision-making; Using observations without replacing teacher assessment",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M13-S01, M13-S02, M13-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-10",
+        "AG5-14",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=13#theory-13-1",
+        "module.html?module=13#theory-13-2",
+        "module.html?module=13#theory-13-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M13-S01",
+        "M13-S02",
+        "M13-S03"
+      ],
+      "number": 56
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 13: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-10",
+        "AG5-14",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 57
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 13: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-10",
+        "AG5-14",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 58
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 13: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-10",
+        "AG5-14",
+        "AG5-7",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 59
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 14: Traceability in cattle enterprises; Understanding beef market specifications; Communicating a source-backed market pathway",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M14-S01, M14-S02, M14-S03.",
+      "syllabus_content": [
+        "Investigate agricultural markets, profitability, technology and relationships with economy and society."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-13",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=14#theory-14-1",
+        "module.html?module=14#theory-14-2",
+        "module.html?module=14#theory-14-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M14-S01",
+        "M14-S02",
+        "M14-S03"
+      ],
+      "number": 60
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 14: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-13",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 61
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 14: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-13",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 62
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 14: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-13",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 63
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 14: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-13",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 64
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 15: Revenue, costs and profitability in beef enterprises",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M15-S01.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=15#theory-15-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M15-S01"
+      ],
+      "number": 65
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 15: Evaluating management decisions with multiple criteria",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M15-S02.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=15#theory-15-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M15-S02"
+      ],
+      "number": 66
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 15: Beef careers and enterprise communication",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M15-S03.",
+      "syllabus_content": [
+        "Investigate agricultural markets, profitability, technology and relationships with economy and society."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=15#theory-15-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M15-S03"
+      ],
+      "number": 67
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 15: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 68
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 15: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 69
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 15: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-12",
+        "AG5-3",
+        "AG5-5",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 70
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 16: Poultry enterprises, breeds and external anatomy",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M16-S01.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=16#theory-16-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M16-S01"
+      ],
+      "number": 71
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 16: The chicken digestive system",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M16-S02.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=16#theory-16-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M16-S02"
+      ],
+      "number": 72
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 16: Using anatomical evidence accurately",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M16-S03.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=16#theory-16-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M16-S03"
+      ],
+      "number": 73
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 16: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 74
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 16: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 75
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 16: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 76
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 16: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 77
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 17: Nutrients and poultry life stages",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M17-S01.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=17#theory-17-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M17-S01"
+      ],
+      "number": 78
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 17: Hen reproductive anatomy and egg formation",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M17-S02.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=17#theory-17-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M17-S02"
+      ],
+      "number": 79
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 17: Evaluating claims about poultry feed and production",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M17-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=17#theory-17-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M17-S03"
+      ],
+      "number": 80
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 17: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 81
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 17: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 82
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 17: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-1",
+        "AG5-2",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 83
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 18: Embryonic development and incubation evidence",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M18-S01.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=18#theory-18-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M18-S01"
+      ],
+      "number": 84
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 18: Biosecurity pathways in poultry systems",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M18-S02.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=18#theory-18-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M18-S02"
+      ],
+      "number": 85
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 18: Recording responsible poultry management",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M18-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=18#theory-18-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M18-S03"
+      ],
+      "number": 86
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 18: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Collect, analyse and communicate agricultural data; evaluate management decisions and evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 87
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 18: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 88
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 18: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 89
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 18: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-13",
+        "AG5-14",
+        "AG5-2",
+        "AG5-4"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 90
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 19: Comparing broiler and layer enterprises",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M19-S01.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-14",
+        "AG5-3",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=19#theory-19-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M19-S01"
+      ],
+      "number": 91
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 19: Gross margins as an enterprise tool",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M19-S02.",
+      "syllabus_content": [
+        "Investigate plant or mixed-enterprise systems, sustainability, management and problem solving."
+      ],
+      "outcome_codes": [
+        "AG5-14",
+        "AG5-3",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=19#theory-19-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M19-S02"
+      ],
+      "number": 92
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 19: Poultry health observations and final evaluation",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M19-S03.",
+      "syllabus_content": [
+        "Explain animal-enterprise systems, management decisions, welfare and responsible production."
+      ],
+      "outcome_codes": [
+        "AG5-14",
+        "AG5-3",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=19#theory-19-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M19-S03"
+      ],
+      "number": 93
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 19: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-14",
+        "AG5-3",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 94
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 19: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Apply safe plant or animal management practices and collect authentic agricultural evidence."
+      ],
+      "outcome_codes": [
+        "AG5-14",
+        "AG5-3",
+        "AG5-4",
+        "AG5-9"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 95
+    }
+  ],
+  "site_route_map": [
+    {
+      "destination": "folio.html",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        2,
+        7,
+        16,
+        25,
+        34,
+        43,
+        52,
+        61,
+        74,
+        87
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        42
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        42
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        42
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        47
+      ]
+    },
+    {
+      "destination": "module.html?module=12#theory-12-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        51
+      ]
+    },
+    {
+      "destination": "module.html?module=12#theory-12-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        51
+      ]
+    },
+    {
+      "destination": "module.html?module=12#theory-12-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        51
+      ]
+    },
+    {
+      "destination": "module.html?module=13#theory-13-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        56
+      ]
+    },
+    {
+      "destination": "module.html?module=13#theory-13-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        56
+      ]
+    },
+    {
+      "destination": "module.html?module=13#theory-13-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        56
+      ]
+    },
+    {
+      "destination": "module.html?module=14#theory-14-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        60
+      ]
+    },
+    {
+      "destination": "module.html?module=14#theory-14-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        60
+      ]
+    },
+    {
+      "destination": "module.html?module=14#theory-14-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        60
+      ]
+    },
+    {
+      "destination": "module.html?module=15#theory-15-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        65
+      ]
+    },
+    {
+      "destination": "module.html?module=15#theory-15-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        66
+      ]
+    },
+    {
+      "destination": "module.html?module=15#theory-15-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        67
+      ]
+    },
+    {
+      "destination": "module.html?module=16#theory-16-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        71
+      ]
+    },
+    {
+      "destination": "module.html?module=16#theory-16-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        72
+      ]
+    },
+    {
+      "destination": "module.html?module=16#theory-16-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        73
+      ]
+    },
+    {
+      "destination": "module.html?module=17#theory-17-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        78
+      ]
+    },
+    {
+      "destination": "module.html?module=17#theory-17-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        79
+      ]
+    },
+    {
+      "destination": "module.html?module=17#theory-17-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        80
+      ]
+    },
+    {
+      "destination": "module.html?module=18#theory-18-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        84
+      ]
+    },
+    {
+      "destination": "module.html?module=18#theory-18-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        85
+      ]
+    },
+    {
+      "destination": "module.html?module=18#theory-18-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        86
+      ]
+    },
+    {
+      "destination": "module.html?module=19#theory-19-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        91
+      ]
+    },
+    {
+      "destination": "module.html?module=19#theory-19-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        92
+      ]
+    },
+    {
+      "destination": "module.html?module=19#theory-19-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        93
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        11
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        20
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        20
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        20
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        29
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        29
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        29
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        38
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        38
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        38
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "TTC-01",
+      "item": "Confirm the actual class timetable and period placement.",
+      "owner": "Course teacher",
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "due_before": "Program approval"
+    },
+    {
+      "id": "TTC-02",
+      "item": "Confirm every practical/fieldwork method, equipment, quantities, WHS controls, supervision and checkpoint from current local authority.",
+      "owner": "Course teacher and school WHS authority",
+      "affected_periods": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        62,
+        63,
+        64,
+        68,
+        69,
+        70,
+        75,
+        76,
+        77,
+        81,
+        82,
+        83,
+        88,
+        89,
+        90,
+        94,
+        95
+      ],
+      "due_before": "Each practical block"
+    },
+    {
+      "id": "TTC-03",
+      "item": "Confirm current folio requirements, assessment status, dates, marks, rubric and submission route.",
+      "owner": "Faculty assessment authority",
+      "affected_periods": [
+        2,
+        7,
+        16,
+        25,
+        34,
+        43,
+        52,
+        61,
+        74,
+        87
+      ],
+      "due_before": "Assessment or submission advice is issued"
+    },
+    {
+      "id": "TTC-04",
+      "item": "Complete faculty review, adjustments and sign-off before representing the program as approved.",
+      "owner": "Faculty approval authority",
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "due_before": "Publication for approved use"
+    }
+  ],
+  "files": [
+    {
+      "path": "Year-9-Agriculture-95-Period-Teaching-Program-v1.0-Website-Complete-10pt.docx",
+      "purpose": "editable-program",
+      "version": "1.0",
+      "sha256": "FB9FE540D5A1E2ED642E89CA48CB17024A4B93498C4B3A58322D7E933F96C5C6"
+    },
+    {
+      "path": "Year-9-Agriculture-95-Period-Teaching-Program-v1.0-Website-Complete-10pt.pdf",
+      "purpose": "rendered-program",
+      "version": "1.0",
+      "sha256": "49B59EA68D5EF2F1772C0989B29D5D3B3C00D1B224E992125E02A1E1E947B7CD"
+    },
+    {
+      "path": "Year-9-Agriculture-95-Period-Teaching-Program-v1.0-Website-Complete-10pt-alignment.json",
+      "purpose": "alignment-manifest",
+      "version": "1.0",
+      "sha256": "SELF"
+    }
+  ]
+}
